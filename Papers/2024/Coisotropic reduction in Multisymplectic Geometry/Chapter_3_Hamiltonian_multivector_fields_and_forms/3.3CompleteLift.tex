@@ -1,0 +1,52 @@
+In \cite{Ibort1999OnTG}, the authors prove that $(TM, \omega^c)$ is a non-degenerate multisymplectic manifold when $\omega$ is a non-degenerate multisymplectic form on $M$. Here $\omega^c$ denotes the complete lift of the form. We would like to generalize this procedure to arbitrary multivector bundles $$\bigvee_q M.$$ Let us begin by recalling that $\omega^c$ is the unique $(k+1)$-form on $TM$ satisfying $$X^\ast \omega^c = \pounds_X \omega,$$ for every vector field $$X: M \rightarrow TM.$$ Recalling the Cartan formula $$\pounds_X \omega = d \iota_X \omega + \iota_X d \omega,$$ we define the Lie derivative of a $\omega$ with respect to a multivector field $$U: M \rightarrow \bigvee_q M$$ as the $(k + 2 - q)$-form (see \cite{TulzcyjewLieDerivative}) $$\pounds_U \omega := \iota_U d \omega + (-1)^{q+1} d \iota_U \omega.$$
+
+\begin{theorem}[Definition of complete lift]\label{thm:completelift} Given a manifold $M$, and $\omega \in \Omega^{k +1}(M)$, there exists an unique $(k + 2 - q)$-form on $\bigvee_q M,$ $\omega^c_q$, such that $$U ^\ast \omega^c_q = \pounds_U \omega,$$ for every multivector field $$U: M \rightarrow \bigvee_q M.$$
+\end{theorem}
+To prove uniqueness, it suffies to study the linear problem. 
+
+\begin{lemma}\label{lemma:completelift} Let $X, Y$ be vector spaces and $\pi: Y \rightarrow X$ be an epimorphism. Then, if $k +1 \leq \dim X$, a form $\omega \in \bigwedge^{k +1} Y^\ast$ is characterized by the pull-backs of all sections $$\phi: X \rightarrow Y.$$ That is, if there is another $(k +1)$-form $\alpha$ on $Y$ such that $\phi^\ast \alpha = \phi^\ast \omega$, for every section $\phi: X \rightarrow Y$ of $\pi,$ then $$\alpha = \omega.$$
+\end{lemma}
+\begin{proof} It is clear that $\omega$ is characterized by the induced linear map $$\omega: \bigwedge^{k+1} Y \rightarrow \mathbb{R},$$ and that, if $\phi^\ast \alpha = \phi^\ast \omega$, for certain form $\alpha \in \bigwedge^{k+1} Y^\ast$, the following diagram commutes.
+% https://q.uiver.app/#q=WzAsMyxbMCwwLCJcXGJpZ3dlZGdlXntrKzF9WSJdLFsxLDAsIlxcbWF0aGJie1J9Il0sWzAsMSwiXFxiaWd3ZWRnZV57aysxfVgiXSxbMCwxLCJcXG9tZWdhIl0sWzAsMiwiXFxwaV9cXGFzdCIsMl0sWzIsMCwiXFxwaGlfXFxhc3QiLDAseyJjdXJ2ZSI6LTMsInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFsyLDEsIlxccGhpXlxcYXN0XFxhbHBoYSIsMl1d
+\[\begin{tikzcd}
+	{\bigwedge^{k+1}Y} & {\mathbb{R}} \\
+	{\bigwedge^{k+1}X}
+	\arrow["\omega", from=1-1, to=1-2]
+	\arrow["{\pi_\ast}"', from=1-1, to=2-1]
+	\arrow["{\phi_\ast}", curve={height=-18pt}, dashed, from=2-1, to=1-1]
+	\arrow["{\phi^\ast\alpha}"', from=2-1, to=1-2]
+\end{tikzcd}.\]
+Therefore, if we can prove that $$\bigwedge^{k+1} Y = \left \langle \phi_\ast\left( \bigwedge^{k+1} X\right), \,\, \phi: X \rightarrow Y \text{ section }  \right\rangle,$$ we would have $\omega = \alpha,$ since they would coincide in a set of generators. Identify $X$ as a subspace of $Y$. We have
+\begin{align*}
+    \bigwedge^{k+1} Y = \bigwedge^{k+1}(X \oplus \ker \pi) = \bigoplus_{l = 0}^{k +1} \left(\bigwedge^{l} X \wedge \bigwedge^{k +1 - l} \ker \pi\right).
+\end{align*}
+We will prove that $$\bigwedge^{l} X \wedge \bigwedge^{k + 1 -l} \ker \pi \subseteq \left \langle \phi_\ast\left( \bigwedge^{k+1} X\right), \,\, \phi: X \rightarrow Y \text{ section }  \right\rangle.$$ Let $$x_1 \wedge \cdots \wedge x_{l} \wedge y_{l+1} \wedge \cdots \wedge y_{k+1} \in \bigwedge^{l} X \wedge \bigwedge^{k +1 -l} \ker \pi,$$ where $x_i \in X$, $y_j \in \ker \pi$ are linearly independent vectors. Extend $x_1, \dots, x_{k +1 - l}$ to $k +1$ linearly independent vectors on $X$ (here we are using $\dim X \geq k+1$), $$x_1, \dots, x_{k+1}$$ and  take a section $\phi: X \rightarrow Y$ such that $$\phi(x_i) = x_i, i = 1, \dots, k, \,\, \phi(x_{k+1}) = x_{k +1} + y_{k+1}.$$ Then 
+\begin{align*}
+    &x_1 \wedge \cdots \wedge x_{k} \wedge y_{k+1} = \\
+    &\phi_\ast (x_{1} \wedge \cdots \wedge x_{k+1}) - x_{1} \wedge \cdots \wedge x_{k+1} \in \left \langle \phi_\ast\left( \bigwedge^{k+1} X\right), \,\, \phi: X \rightarrow Y \text{ section }  \right\rangle.
+\end{align*}
+With a similar argument we can show that $$x_1\wedge\cdots \wedge x_{k -1} \wedge y_k \wedge x_{k +1} \in \left \langle \phi_\ast\left( \bigwedge^{k+1} X\right), \,\, \phi: X \rightarrow Y \text{ section }  \right\rangle.$$ Now, defining another section (which we name the same making abuse of notation) $\phi$ satisfying $$\phi(x_i) = x_i, \, i= 1, \dots, k -1,\,\, \phi(x_{k}) = x_k + y_k, \phi(x_{k+1}) = x_{k+1} + y_{k+1},$$ we have
+\begin{align*}
+    \phi_\ast(x_1 \wedge \cdots \wedge x_{k+1}) = x_1 \wedge \cdots \wedge x_{k-1} \wedge (x_k + y_k) \wedge (x_{k+1} + y_{k+1})
+\end{align*}
+which, by the previous considerations implies 
+$$x_1 \wedge \cdots \wedge x_{k-1} \wedge y_{k} \wedge y_{k+1}\in \left \langle \phi_\ast\left( \bigwedge^{k+1} X\right), \,\, \phi: X \rightarrow Y \text{ section }  \right\rangle.$$ Now, iterating this argument we conclude $$x_1 \wedge \cdots \wedge x_{l} \wedge y_{l+1} \wedge \cdots \wedge y_{k+1} \in \left \langle \phi_\ast\left( \bigwedge^{k+1} X\right), \,\, \phi: X \rightarrow Y \text{ section }  \right\rangle,$$ proving the result.
+\end{proof}
+\begin{proof}[Proof of \cref{thm:completelift}] By \cref{lemma:completelift}, if we find a form $\omega^c_q$ on $\bigvee_q M$ satisfying $$U^\ast \omega^c_q = \pounds_U \omega,$$ the result would follow. Consider the induced maps by $\omega$ and $d \omega$ on $\bigvee_q M$,
+% https://q.uiver.app/#q=WzAsMyxbMCwxLCJcXGJpZ3ZlZV9xIE0iXSxbMiwwLCJcXGJpZ3dlZGdlXntrKzIgLSBxfU0iXSxbMiwxLCJcXGJpZ3dlZGdlXntrKzEgLSBxfU0iXSxbMCwxLCJcXHdpZGV0aWxkZSBcXGZsYXRfcTo9IFxcaW90YV97XFxidWxsZXR9IGQgXFxvbWVnYSIsMCx7ImN1cnZlIjotMX1dLFswLDIsIlxcZmxhdF9xOiA9IFxcaW90YV97XFxidWxsZXR9IFxcb21lZ2EiLDJdXQ==
+\[\begin{tikzcd}
+	&& {\bigwedge^{k+2 - q}M} \\
+	{\bigvee_q M} && {\bigwedge^{k+1 - q}M}
+	\arrow["{\widetilde \flat_q:= \iota_{\bullet} d \omega}", curve={height=-6pt}, from=2-1, to=1-3]
+	\arrow["{\flat_q: = \iota_{\bullet} \omega}"', from=2-1, to=2-3]
+\end{tikzcd},\]
+and define a $(k +2 - q)$-form on $\bigvee_q M$ by $$\omega^c_q := (\widetilde{\flat}_q)^\ast \Theta_M^{k + 2 - q} + (-1)^q (\flat_q)^\ast \Omega_M^{k + 1 - q}.$$ Then, by definition of $\Theta_M^{k +2 -q},$ and $\Omega_M^{k +1 - q}$ we have that for all multivector fields $U: M \rightarrow \bigvee_q M,$
+\begin{align*}
+    U^\ast \omega^c_q = \iota_U d \omega + (-1)^{q+ 1} d \iota_U \omega  = \pounds_U \omega,
+\end{align*}
+finishing the proof.
+\end{proof}
+\begin{remark}
+    Now that we have generalized the complete lift of forms to arbitrary multivector bundles, given a multisymplectic manifold $(M, \omega)$ we have two ways of inducing a multisymplectic structure on $\bigvee_q M,$ the one constructed in \cref{Subsection:HamiltonianAsLagrangian}, and the complete lift from \cref{thm:completelift}. However, because $\omega$ is closed, the map $\widetilde{\flat}_q$ of the proof of \cref{thm:completelift} is trivial and thus, $$\omega^c_q = (-1)^q(\flat_q)^\ast \Omega_M^{k +1 - q} = (-1)^q \widetilde{\Omega}_M^q$$ and we conclude that, up to sign, both multisymplectic structures are equal.
+\end{remark}
+

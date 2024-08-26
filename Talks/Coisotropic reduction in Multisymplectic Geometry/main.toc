@@ -1,0 +1,6 @@
+\babel@toc {english}{}\relax 
+\beamer@sectionintoc {2}{Symplectic Geometry}{4}{0}{1}
+\beamer@sectionintoc {3}{Multisymplectic Manifolds}{22}{0}{2}
+\beamer@sectionintoc {4}{Hamiltonian multivector fields and forms}{33}{0}{3}
+\beamer@sectionintoc {5}{Coisotropic submanifolds}{42}{0}{4}
+\beamer@sectionintoc {6}{Final remarks and future research}{66}{0}{5}

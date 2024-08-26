@@ -1,0 +1,180 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{Ibort1999OnTG}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0f3b43c808c59ab9f9c11ad0490bfe76}{%
+           family={Cantrijn},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=91115a0c84991fe55987ed0a17a29dd8}{%
+           family={Ibort},
+           familyi={I\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0989f67a5053447cfcac940a6d9df26e}{%
+           family={De\bibnamedelima León},
+           familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5767fddcec6649b2e5b6318f15858f05}
+      \strng{fullhash}{5767fddcec6649b2e5b6318f15858f05}
+      \strng{bibnamehash}{5767fddcec6649b2e5b6318f15858f05}
+      \strng{authorbibnamehash}{5767fddcec6649b2e5b6318f15858f05}
+      \strng{authornamehash}{5767fddcec6649b2e5b6318f15858f05}
+      \strng{authorfullhash}{5767fddcec6649b2e5b6318f15858f05}
+      \field{labelalpha}{CID99}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Australian Mathematical Society. Series A. Pure Mathematics and Statistics}
+      \field{number}{3}
+      \field{title}{On the geometry of multisymplectic manifolds}
+      \field{volume}{66}
+      \field{year}{1999}
+      \true{nocite}
+      \field{pages}{303\bibrangedash 330}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1017/S1446788700036636
+      \endverb
+    \endentry
+    \entry{HamiltonianStructuresIbort}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0f3b43c808c59ab9f9c11ad0490bfe76}{%
+           family={Cantrijn},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=91115a0c84991fe55987ed0a17a29dd8}{%
+           family={Ibort},
+           familyi={I\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=afd17d9d856ee31fdfd0c167c2dcf279}{%
+           family={León},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{c3dbc17cd8f5e947dd2dae311f582bea}
+      \strng{fullhash}{c3dbc17cd8f5e947dd2dae311f582bea}
+      \strng{bibnamehash}{c3dbc17cd8f5e947dd2dae311f582bea}
+      \strng{authorbibnamehash}{c3dbc17cd8f5e947dd2dae311f582bea}
+      \strng{authornamehash}{c3dbc17cd8f5e947dd2dae311f582bea}
+      \strng{authorfullhash}{c3dbc17cd8f5e947dd2dae311f582bea}
+      \field{labelalpha}{CIL96}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Rend. Sem. Mat. Univ. Politec. Torino}
+      \field{month}{01}
+      \field{number}{3}
+      \field{title}{Hamiltonian structures on multisymplectic manifolds}
+      \field{volume}{54}
+      \field{year}{1996}
+      \true{nocite}
+      \field{pages}{225\bibrangedash 236}
+      \range{pages}{12}
+    \endentry
+    \entry{deleon2003tulczyjews}{inbook}{}
+      \name{author}{3}{}{%
+        {{hash=433f48816f5fe496e3099f3d7545994f}{%
+           family={Leon},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=7c71a0e97d597f2073a79a0b543b35fa}{%
+           family={Diego},
+           familyi={D\bibinitperiod},
+           given={D.\bibnamedelimi Martín},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=050fe2e8488e135689788d2011e2eca9}{%
+           family={Santamaria-Merino},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{07830c1b582f07e818a6a7c672d86d05}
+      \strng{fullhash}{07830c1b582f07e818a6a7c672d86d05}
+      \strng{bibnamehash}{07830c1b582f07e818a6a7c672d86d05}
+      \strng{authorbibnamehash}{07830c1b582f07e818a6a7c672d86d05}
+      \strng{authornamehash}{07830c1b582f07e818a6a7c672d86d05}
+      \strng{authorfullhash}{07830c1b582f07e818a6a7c672d86d05}
+      \field{labelalpha}{LDS03}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Applied Differential Geometry and Mechanics}
+      \field{title}{Tulczyjew's triples and lagrangian submanifolds in classical field theories}
+      \field{year}{2003}
+      \field{pages}{21\bibrangedash 47}
+      \range{pages}{27}
+    \endentry
+    \entry{deleón2024coisotropic}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=863fdecd95a1ea46e2a597cdfac4e3ed}{%
+           family={León},
+           familyi={L\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=8b015ed5f0b852fc820273566075c64b}{%
+           family={Izquierdo-López},
+           familyi={I\bibinithyphendelim L\bibinitperiod},
+           given={Rubén},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a175936be285e176965dc0e4f9acad38}
+      \strng{fullhash}{a175936be285e176965dc0e4f9acad38}
+      \strng{bibnamehash}{a175936be285e176965dc0e4f9acad38}
+      \strng{authorbibnamehash}{a175936be285e176965dc0e4f9acad38}
+      \strng{authornamehash}{a175936be285e176965dc0e4f9acad38}
+      \strng{authorfullhash}{a175936be285e176965dc0e4f9acad38}
+      \field{labelalpha}{LI24}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.SG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Coisotropic reduction in Multisymplectic Geometry}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2405.12898
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

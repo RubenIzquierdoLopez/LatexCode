@@ -1,0 +1,172 @@
+%&lualatex
+%!TEX TS-program = lualatex
+%!TEX encoding = UTF-8 Unicode
+% !TeX spellcheck = es-ES
+\documentclass{beamer}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{mathtools}
+\usepackage{datetime}
+\usepackage{amssymb}
+\usepackage{physics}
+%--- Cosas de estilo
+\usetheme{metropolis}
+\metroset{
+    sectionpage=progressbar, 
+    numbering=fraction, 
+    progressbar=foot,
+    block=fill
+}
+\usecolortheme{default}
+\uselanguage{english}
+\languagepath{english}
+\setbeamercovered{transparent} %Para que las pausas bajen la opacidad de los elementos en vez de ocultarlos
+%--- Para que las demostraciones no ocupen tanto
+\setbeamertemplate{proof begin}{
+    \vspace{0.5ex}%
+    {\usebeamercolor[fg]{block title}\usebeamerfont*{block title}%
+    \insertproofname\ }%
+}
+\setbeamertemplate{proof end}{\par
+} %https://tex.stackexchange.com/a/537223/
+\addto\captionsspanish{\renewcommand\proofname{Dem.}} %Más corto
+
+%--- Más cosas de estilo (fuentes más legibles)
+\usepackage[mathrm=sym,warnings-off={mathtools-colon,mathtools-overbracket}]{unicode-math}
+\setsansfont[
+    BoldFont={Fira Sans Medium}, 
+    BoldItalicFont={Fira Sans Medium Italic}, 
+    ItalicFont={Fira Sans Book Italic}
+]{Fira Sans Book} %algo más fina que Fira Sans Regular
+
+%\setmathfont[Scale = MatchUppercase]{FiraMath-Regular.otf}
+%\setmathfont[Scale = MatchUppercase, range={cal, bfcal, scr, bfscr, frak, bffrak}]{texgyredejavu-math.otf} %caligráficas y etc
+
+%--- Para tener un poco más de rango (si una palabra no cabe en la línea por poquito, la hace más estrecha sin que se note demasiado)
+% Solo funciona con Lua(La)TeX, que en Overleaf tarda demasiado en compilar.
+
+\usepackage{microtype}
+\microtypesetup{stretch=25, nopatch=footnote}
+
+%--- un apaño para que no cuente las diapositivas del apéndice https://tex.stackexchange.com/a/70495/
+\newcommand{\backupbegin}{
+   \newcounter{finalframe}
+   \setcounter{finalframe}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+   \setcounter{framenumber}{\value{finalframe}}
+}
+
+%--- Un par de teoremas base
+
+\theoremstyle{definition}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\title{Coisotropic reduction in different phase spaces}
+\subtitle{XVIII International Young Researchers Workshop in Geometry, Dynamics and Field Theory}
+\author{Rubén Izquierdo, Manuel De León}
+\institute{UCM-ICMAT}
+\newdate{date}{21}{2}{2024}
+\date{\displaydate{date}}
+
+\begin{document}
+{
+    \vfuzz=16pt %así no se queja
+    \frame[noframenumbering, plain]{\titlepage} %Sin número de página abajo a la derecha
+}
+
+\begin{frame}{Outline}
+    \tableofcontents
+\end{frame}
+%COISOTROPIC REDUCTION IN NON-DISSIPATIVE MECHANICS
+\section{Coisotropic reduction in non-dissipative mechanics}
+\begin{frame}{The canonical phase spaces}
+\begin{itemize}
+    \item If $Q$ is the configuration space of a mechanical system, the phase space $M := T^\ast Q$ inherits a canonical \alert<1>{symplectic structure} $(M,\omega),$ $$\omega := \omega_Q = - d \lambda_Q = d q^i \wedge dp_i.$$ \pause
+    \item The phase space $M := T^\ast Q \times \mathbb{R}$  inherits a canonical \alert<2>{cosymplectic structure}, $(M, \omega, \theta),$ $$\omega = \omega_Q = d q^i \wedge dp_i, \,\,\,\, \theta = dt.$$ 
+\end{itemize}
+\end{frame}
+\begin{frame}{The Poisson bracket}
+    Symplectic and cosympelctic manifolds are \alert<1>{Poisson manifolds} with the bracket $$\{ f , g\} = \pdv{f}{q^i} \pdv{g}{p_i} - \pdv{f}{p_i}\pdv{g}{q^i}.$$\pause In each of these cases, the bracket is induced by the \alert<2>{Poisson bivector} $$\Lambda = \pdv{q^i} \wedge \pdv{p_i}, \,\,\, \{f , g\} = \Lambda(df, dg).$$ \pause
+    We have an induced map $$\sharp_\Lambda : T^\ast M \rightarrow TM, \,\,\,\,\, \alpha \mapsto \iota_\alpha \Lambda.$$\pause
+    Denote $$\mathcal{H} := \operatorname{im} \sharp_\Lambda = \langle \pdv{q^i}, \pdv{p_i} \rangle.$$ In symplectic manifolds, $\mathcal{H} = TM.$
+\end{frame}
+\begin{frame}{Coisotropic and Lagrangian submanifolds}
+If $\Delta \subseteq T_xM$, we define the \alert<1>{orthogonal} as $$\Delta^{\perp_\Lambda} := \sharp_\Lambda (\Delta ^0),$$ where $\Delta^0 \subseteq T^\ast_x M$ is the annihilator of $\Delta.$ \pause
+We say that $\Delta$ is
+\begin{itemize}
+    \item \alert<2>{Coisotropic}, if $$\Delta^{\perp_\Lambda} \subseteq \Delta,$$ \pause
+    \item \alert<3>{Lagrangian}, if $$\Delta^{\perp_\Lambda} = \Delta \cap \mathcal{H}.$$\pause
+\end{itemize}
+These definitions apply to submanifolds $N \hookrightarrow M$ as well.
+\end{frame}
+\begin{frame}{Coisotropic reduction in symplectic geometry}
+Let $(M, \omega)$ be a \alert<1>{symplectic manifold} and $i:N \hookrightarrow M$ be a \alert<1>{coisotropic submanifold}. \pause
+\begin{proposition}
+$(TN)^{\perp_\Lambda} \subseteq TN$ is an involutive distribution.
+\end{proposition}
+\pause
+Define $\mathcal{F}$ to be the maximal foliation associated to $(TN)^{\perp_\Lambda}$. We will assume that $N/ \mathcal{F}$ admits a manifold structure such that the canonical projection $\pi: N \rightarrow N/ \mathcal{F}$ is a summersion. \pause
+\begin{theorem}[Weinstein] There exists an unique \alert<4>{symplectic} form $\omega_N$ defined on $N/ \mathcal{F}$ such that $$\pi^\ast \omega_N = i^\ast \omega.$$
+\end{theorem}
+\end{frame}
+\begin{frame}{Coisotropic reduction in cosymplectic geometry}
+Let $(M, \omega, \theta)$ be a \alert<1>{cosymplectic manifold} and $i: N \hookrightarrow M$ be a \alert<1>{coisotropic submanifold}. \pause
+\begin{proposition}
+$(TN)^{\perp_\Lambda} \subseteq TN$ is an involutive distribution.
+\end{proposition}\pause
+Suppose $N/ \mathcal{F}$ admits a manifold structure such that $\pi: N \rightarrow N/ \mathcal{F}$ defines a summersion.\pause
+\begin{theorem}[ RIL-MLR]
+\begin{itemize}
+\item If $TN \subseteq \mathcal{H}$, $N/ \mathcal{F}$ admits an unique \alert<4>{symplectic structure} compatible with the strcuture defined on $M$.\pause
+\item If $\pdv{t} \in TN$, $N/ \mathcal{F}$ admits an unique \alert<5>{cosymplectic sturcture} compatible with the one defined on $M$.
+\end{itemize}
+\end{theorem}
+\end{frame}
+
+%COISOTROPIC REDUCTION IN DISSIPATIVE MECHANICS
+\section{Coisotropic reduction in dissipative mechanics}
+\begin{frame}{The canonical phase spaces}
+    \begin{itemize}
+        \item The phase space of an autonomous dissipative system is $T^\ast Q \times \mathbb{R}$, with its canonical \alert<1>{contact structure} $$\eta = dz - p_i dq^i.$$ \pause
+        \item If we want to study time-dependent dissipative mechanics, the phase space is $T^\ast Q \times \mathbb{R} \times \mathbb{R}$ endowed with its \alert<2>{cocontact structure}
+        $$\eta = dz - p_i dq^i; \,\,\, \theta = dt.$$
+    \end{itemize}
+\end{frame}
+\begin{frame}{The Jacobi bracket}
+In both of these phase spaces there is a \alert<1>{Jacobi bracket} which is locally given by $$\{f,g\} =  \frac{\partial f}{\partial p_i}\frac{\partial g}{\partial q^i}- \frac{\partial f}{\partial q^i} \frac{\partial g}{\partial p_i} + p_i\left (  \frac{\partial f}{\partial p_i}\frac{\partial g}{\partial z}- \frac{\partial g}{\partial p_i} \frac{\partial f}{\partial z} \right ) + g \frac{\partial f}{\partial z} - f\frac{\partial g}{\partial z}.$$ \pause This Jacobi bracket is defined through the \alert<2>{Jacobi bivector} and a vector field 
+$$\Lambda = \frac{\partial}{\partial p_i}\wedge \frac{\partial}{\partial q^i} + p_i \frac{\partial}{\partial p_i} \wedge \frac{\partial}{\partial z},$$
+$$E = - \pdv{z},$$
+as $$\{ f, g \} = \Lambda(df, dg) + f E(g) - gE(f).$$
+\end{frame}
+\begin{frame}{Coisotropic and Legendrian submanifolds}
+The orthogonal of a distribution $\Delta \subseteq TM$ is defined as $$\Delta^{\perp_\Lambda} = \sharp_\Lambda(\Delta^0),$$ where $$\sharp_\Lambda : T^\ast M \rightarrow TM; \,\,\, \alpha \mapsto \iota_\alpha \Lambda.$$\pause
+We say that $\Delta$ is
+\begin{itemize}
+    \item \alert<2>{Coisotropic}, if $$\Delta^{\perp_\Lambda} \subseteq \Delta,$$ \pause
+    \item \alert<3>{Legendrian}, if $$\Delta^{\perp_\Lambda} = \Delta.$$\pause
+\end{itemize}
+The same definitions apply to submanifolds $N \hookrightarrow M$ as well.
+\end{frame}
+\begin{frame}{Coisotropic reduction}
+\begin{proposition}
+If $N \hookrightarrow M$ is a \alert<1>{coisotropic} submanifold, then $(TN)^{\perp_\Lambda}$ is involutive and thus arises from a maximal foliation $\mathcal{F}$.
+\end{proposition}
+We assume that $\pdv{z} \in TN$. \pause
+\begin{theorem}
+If $M$ is a \alert<2>{contact} manifold, $N/ \mathcal{F}$ admitis an unique \alert<2>{contact} structure compatible with the one on $M$. \\
+\pause
+If $M$ is a \alert<3>{cocontact} manifold:\pause
+\begin{itemize}
+\item If $\pdv{t} \in TN,$ $N/\mathcal{F}$ inherits an unique \alert<4>{cocontact} structure from $M$. \pause
+\item If $TN \subseteq \operatorname{im} \sharp_\Lambda \oplus \langle \pdv{z} \rangle$, $N/ \mathcal{F}$ inherits an unique \alert<5>{contact} structure from $M$.
+\end{itemize}
+\end{theorem}
+\end{frame}
+\begin{frame}{References}
+    \bibliographystyle{plain}
+    \bibliography{refs.bib}
+\end{frame}
+
+
+\end{document}

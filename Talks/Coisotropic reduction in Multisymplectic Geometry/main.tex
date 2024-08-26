@@ -1,0 +1,132 @@
+%&lualatex
+%!TEX TS-program = lualatex
+%!TEX encoding = UTF-8 Unicode
+% !TeX spellcheck = es-ES
+\documentclass[9pt]{beamer}
+\setbeamertemplate{section in toc}[sections numbered]
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{mathtools}
+\usepackage{datetime}
+\usepackage{amssymb}
+\usepackage[natbib = true, style = alphabetic]{biblatex}
+\addbibresource{refs.bib}
+\usepackage{physics}
+\usepackage{unicode-math}
+\usepackage{amsthm}
+\setmainfont{CMU Serif}
+%--- Cosas de estilo
+\usetheme{metropolis}
+\metroset{
+    sectionpage=progressbar, 
+    numbering=fraction, 
+    progressbar=foot,
+    block=fill
+}
+\usecolortheme{default}
+
+
+\setbeamercovered{transparent} %Para que las pausas bajen la opacidad de los elementos en vez de ocultarlos
+%--- Para que las demostraciones no ocupen tanto
+\setbeamertemplate{proof begin}{
+    \vspace{0.5ex}%
+    {\usebeamercolor[fg]{block title}\usebeamerfont*{block title}%
+    \insertproofname\ }%
+}
+
+\setbeamertemplate{proof end}{\par
+} %https://tex.stackexchange.com/a/537223/
+\addto\captionsspanish{\renewcommand\proofname{Dem.}} %Más corto
+
+
+%--- Un par de teoremas base
+
+
+
+\title{Coisotropic reduction in Multisymplectic Geometry}
+\subtitle{Gamma seminar}
+\author{Rubén Izquierdo, joint work with Manuel de León.}
+\institute{ICMAT}
+\date{Wednesday 26 June, 2024}
+
+
+\theoremstyle{plain} % insert bellow all blocks you want in italic
+% to number according to section
+\newtheorem{proposition}{Proposition}[section]
+\theoremstyle{definition} % insert bellow all blocks you want in normal text
+\newtheorem{Def}{Definition}[section] % to number according to section
+\newtheorem*{idea}{Proof idea} % no numbered block
+
+%-----------------------------
+% Título
+%-----------------------------
+
+\begin{document}
+\begin{frame}[plain]
+    \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+    \tableofcontents
+\end{frame}
+
+
+
+%-----------------------------
+% Calculus of Variations
+%-----------------------------
+%\section{Calculus of Variations}
+%\input{Calculus of Variations}
+%-----------------------------
+% Bibliography
+%-----------------------------
+\nocite{deleón2024coisotropic}
+\nocite{HamiltonianStructuresIbort}
+\nocite{Ibort1999OnTG}
+\nocite{deleon2003tulczyjews}
+\begin{frame}{References}
+    \printbibliography
+\end{frame}
+
+
+%-----------------------------
+% Symplectic Geometry
+%-----------------------------
+\section{Symplectic Geometry}
+\input{SymplecticGeometry}
+
+%-----------------------------
+% Multisymplectic Manifolds
+%-----------------------------
+\section{Multisymplectic Manifolds}
+\input{MultisymplecticGeometry}
+
+%-----------------------------
+% Interpretation of Hamiltonian multivectorfields
+%-----------------------------
+\section{Hamiltonian multivector fields and forms}
+\input{InterpretationHamiltonian}
+
+%-----------------------------
+% Coisotropic submanifoldS
+%-----------------------------
+\section{Coisotropic submanifolds}
+\input{Coisotropic submanifold}
+
+%-----------------------------
+% Final remarks
+%-----------------------------
+\section{Final remarks and future research}
+\input{FinalRemarks}
+
+
+
+\begin{frame}
+\begin{center}
+    {\Huge Thank you for your attention!}\\
+    \vspace{1 cm}
+    {\Huge Questions?}
+\end{center}
+\end{frame}
+
+\end{document}

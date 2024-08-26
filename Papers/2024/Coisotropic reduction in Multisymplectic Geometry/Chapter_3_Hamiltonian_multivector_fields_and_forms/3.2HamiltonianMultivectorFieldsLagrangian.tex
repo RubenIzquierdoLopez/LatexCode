@@ -1,0 +1,42 @@
+Given a symplectic manifold $(M, \omega)$, we can endow its tangent bundle with a symplectic structure using the bundle ismorphism $$TM \xrightarrow{\flat} T^\ast M,$$ and the canonical symplectic form on $T^\ast M.$ With this definition and interpreting a vector field $X: M \rightarrow TM$ as a submanifold, $X$ is $1$-Lagrangian if and only if it is locally Hamiltonian. We would like to generalize this result to general multisymplectic manifolds and multivector fields of aribitrary order $q$ $$U:M\rightarrow \bigvee_qM.$$ In \cite{HamiltonianStructuresIbort}, the authors prove a generalization of the result to vector fields in multisymplectic manifolds $$X: M \rightarrow TM,$$ endowing the tangent bundle $TM$ with a multisymplectic structure via the complete lift of forms. We will explore how to generalize this method in $\cref{Subsection:Completelift}$. In the meantime, let us begin by defining a multisymplectic structure on $\bigvee_q M.$\\
+
+Given a multisymplectic manifold $(M, \omega)$ of order $k$, we have the induced map by contraction $$\bigvee_q M \xrightarrow{\flat_q} \bigwedge^{k+1-q} M;\, u \mapsto \iota_u \omega.$$ Using the canonical multisymplectic form $\Omega_M^{k + 1 - q}$ on $\bigwedge^{k + 1 - q} M$, we can define the closed form (in fact, exact)$$\widetilde{\Omega}^q_M := (\flat_q)^\ast \Omega_M^{k +1 - q},$$ which endows $\bigvee_q M$ with a multisymplectic structure of order $(k + 1 - q)$. Notice that, for $q = 1$, the order of the multisymplectic structure on $TM$ is the order of the multisymplectic structure on $M$.
+
+\begin{remark} Even if $\omega$ is non-degenerate, $\widetilde\Omega_M^q$ could have non trivial kernel. This motivates the study of ``general" multisymplectic structures that we have adopted along this paper, which provides a way of interpreting multivector fields as Lagrangian submanifolds of (possible degenerate)  multisymplectic manifolds.
+\end{remark}
+
+Denote by $\widetilde{W}_M^q$ the vertical distribution associated to the vector bundle $$\bigvee_q M \rightarrow M.$$ Since $\flat_q$ is a bundle map
+% https://q.uiver.app/#q=WzAsMyxbMCwwLCJcXGJpZ3ZlZV9xTSJdLFsyLDAsIlxcYmlnd2VkZ2Vee2srMS1xfU0iXSxbMSwxLCJNIl0sWzAsMSwiXFxmbGF0X3EiXSxbMCwyLCIiLDIseyJjdXJ2ZSI6MX1dLFsxLDIsIiIsMCx7ImN1cnZlIjotMX1dXQ==
+\[\begin{tikzcd}
+	{\bigvee_qM} && {\bigwedge^{k+1-q}M} \\
+	& M
+	\arrow["{\flat_q}", from=1-1, to=1-3]
+	\arrow[curve={height=6pt}, from=1-1, to=2-2]
+	\arrow[curve={height=-6pt}, from=1-3, to=2-2]
+\end{tikzcd},\] we have that $$(\flat_q)_\ast \widetilde{W}_M^q \subseteq W_M^{k+1-q},$$ where $W_M^{k+1-q}$ is the vertical distribution of the vector bundle $$\bigwedge^{k+1-q}M \rightarrow M.$$
+Now, recall that $W_M^{k +1 - q}$ defines a $1$-Lagrangian distribution. Therefore, we have
+\begin{proposition}\label{verticalis1isotropic} $\widetilde{W}_M^q$ defines a $1$-isotropic distribution on $(\bigvee_q M, \widetilde{\Omega}_M^q).$
+\end{proposition}
+
+Now we can prove the main result of this section.
+\begin{theorem} Let $(M, \omega)$ be a multisymplectic manifold of order $k$. Then, a multivector field $$U: M \rightarrow \bigvee_q M$$ is locally Hamiltonian if and only if it defines a $(k +1 - q)$-Lagrangian submanifold in $(\bigvee_q M, \widetilde{\Omega}_M^q).$
+\end{theorem}
+\begin{proof} With \cref{isotropicdecomposition} in mind, since $\widetilde{W}_M^q$ is $1$-isotropic by \cref{verticalis1isotropic}, and we have the decomposition $$T\left(\bigvee_q M \right)\bigg|_{U(M)} = U_\ast(TM) \oplus \widetilde{W}_M^q\big |_{U(M)},$$ we only need to check wether $U$ defines a $(k+1 -q)$-isotropic submanifold or, equivalently, wether $$U^\ast \widetilde{\Omega}_M^{q} = 0.$$
+% https://q.uiver.app/#q=WzAsMyxbMCwwLCJcXGJpZ3ZlZV9xTSJdLFswLDIsIk0iXSxbMiwwLCJcXGJpZ3dlZGdlXntrICsxIC1xIH1NIl0sWzAsMiwiXFxmbGF0X3EiXSxbMSwwLCJVIl0sWzEsMiwiXFxmbGF0X3EoVSkgPSBcXGlvdGFfVSBcXG9tZWdhIiwyLHsiY3VydmUiOjF9XV0=
+\[\begin{tikzcd}
+	{\bigvee_qM} && {\bigwedge^{k +1 -q }M} \\
+	\\
+	M
+	\arrow["{\flat_q}", from=1-1, to=1-3]
+	\arrow["U", from=3-1, to=1-1]
+	\arrow["{\flat_q(U) = \iota_U \omega}"', curve={height=6pt}, from=3-1, to=1-3]
+\end{tikzcd}\]
+We have that 
+\begin{align*}
+    U^\ast \widetilde{\Omega}_M^{q} &= U^\ast \flat_q^\ast \Omega_M^{k +1 - q} = (\flat_q \circ U)^\ast \Omega_M^{k +1 - q}\\
+    &= (\iota_U \omega)^\ast \Omega_M^{k +1 - q} = - d \iota_U \omega,
+\end{align*}
+where in the last equality we have used that $\alpha^\ast \Omega^k_Q = - d \alpha,$ for any form $\alpha: Q \rightarrow \bigwedge^k Q$. We conclude that $U$ is $k$-Lagrangian if and only if $$0 = U^\ast \widetilde{\Omega}_M^q = - d \iota_U \omega,$$ that is, if and only if $U$ is locally Hamiltonian.
+\end{proof}
+
+ 

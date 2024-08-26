@@ -1,0 +1,147 @@
+\begin{Def}[Multisymplectic vector space] A \textbf{multisymplectic vector space} of order $k$ is a pair $(V, \omega),$ where $\omega$ is a $(k+1)$-form on $V$, namely $\omega \in \bigwedge^{k+1} V^\ast.$ The multisymplectic vector space and the form will be called \textbf{non-singular} or \textbf{regular} if the map given by contraction $$V \xrightarrow{\flat_1} \bigwedge^k V; \,\, v \mapsto \iota_v \omega$$ defines a monomorphism, that is, $\iota_v \omega = 0$ only when $v = 0.$
+\end{Def}
+\begin{obs} This terminology is not standard. In the literature, an arbitrary form $\omega \in \bigwedge^k V^\ast$ is usually called \textit{pre-multisymplectic}, but we choose this terminology for the sake of simplicity. We prefer this general approach because in \cref{Section:Hamiltonianstructures}, ``singular'' multisymplectic manifolds (what we simply call multisymplectic) appear naturally. Nevertheless, all the definitions given in the text coincide with the usual definitions when $\omega$ is non-degenerate. 
+\end{obs}
+The $(k +1)$-form $\omega$ induces the following map:
+\begin{Def} Let $(V, \omega)$ be a multisymplectic vector space of order $k$. Define the map induced by contraction $$\flat_q : \bigwedge^{q} V \rightarrow \bigwedge^{k + 1 - q} V^\ast, \,\, u \mapsto \iota_u \omega.$$
+\end{Def}
+\begin{remark} A multisymplectic vector space of order $k$, $(V, \omega)$ is regular if and only if $\ker \flat_1 = 0.$
+\end{remark}
+
+\begin{obs} For $k = 1$, all possible forms are classified up to linear isomorphism. Indeed, it is a well known fact that $\omega_1, \omega_2 \in \bigwedge^2 V^\ast$ are in the same $GL(V)$-orbit if and only if $\rank \omega_1 = \rank \omega_2.$ In particular, when $\dim V$ is even, every pair of non-degenerate $2$-forms are in the same $GL(V)$-orbit. For general order $k > 2$, the classification is far from trivial. For example, $3$-forms are not classified for arbitrary $\dim V$. For a complete table of the number of $GL(V)$-orbits in $\bigwedge^k V^\ast$, we refer to \cite{orbitsforms}. 
+\end{obs}
+The isomorphism of multisymplectic vector spaces is given by the following definition.
+\begin{Def}[Multisymplectomorphism] Let $(V_1, \omega_1),$ $(V_2, \omega_2)$ be multisymplectic vector spaces. A \textbf{multisymplectomorphism} between $(V_1, \omega_1)$ and $(V_2, \omega_2)$ is a linear isomorphism $$f: V_1 \rightarrow V_2$$ satisfying $$f^\ast \omega_2 = \omega_1.$$ 
+\end{Def}
+
+\begin{example}\label{ex:canonicalmultisymplectic}Let $L$ be a vector space and take $V := L \oplus \bigwedge^{k+1} L$ with $k \leq \dim V$. Define the $(k +1)$-form $$\Omega_L ((v_1, \alpha_1), \dots, (v_{k+1}, \alpha_{k+1})) := \sum_{j = 1}^{k+1} \alpha_j(v_1, \dots, \hat{v}_j, \dots, v_{k+1}),$$ where $\hat{v}_j$ means that the $j$th-vector is missing. Then, $\Omega_L$ is a regular multisymplectic form and, thus, $(V, \Omega_L)$ is a regular multisymplectic vector space. 
+\end{example}
+
+Similar to the notion of orthogonal in symplectic vector spaces, we can define a (now indexed) version in multisymplectic vector spaces.
+\begin{Def}[Multisymplectic orthogonal] Let $(V, \omega)$ be a multisymplectic vector space of order $k$, $W \subseteq V$ be a subspace and $1 \leq j \leq k$. Define the ${j}$\textbf{th-orthogonal} to $W$ as the subspace $$W^{\perp, j} = \{v \in V : \,\, \iota_{v \wedge w_1 \wedge \cdots \wedge w_j} \omega = 0, \forall w_1, \dots, w_j \in W\}.$$
+\end{Def}
+It can be easily proved that the $j$th-orthogonal satisfies the following properties:
+\begin{proposition}\label{prop: propertiesoforthogonal} Let $(V, \omega)$ be a multisymplectic vector space of order $k$. Then,
+\begin{enumerate}[a)]
+    \item $\{0\}^{\perp, j} = V$ for all $1 \leq j \leq k$;
+    \item $V^{\perp, 1} = \ker \flat_1$;
+    \item $(W_1 + W_2)^{\perp, j} \subseteq W_1^{\perp, j} \cap W_2^{\perp, j},$ for all $1 \leq j \leq k$, and for all subspaces $W_1, W_2 \subseteq V$;
+    \item $W_1^{\perp, j} + W_2^{\perp, j} \subseteq (W_1 \cap W_2)^{\perp, j}$ for all $1 \leq j \leq k$, and for all subspaces $W_1, W_2 \subseteq V$;
+    \item $(W_1 + W_2)^{\perp, 1} \subseteq W_1^{\perp, 1} \cap W_2^{\perp, 1},$ for all subspaces $W_1, W_2 \subseteq V$.
+\end{enumerate}
+\end{proposition}
+The definitions of isotropic, coisotropic, Lagrangian and symplectic generalize as follows:
+\begin{Def}[$j$-isotropic, $j$-coisotropic, $j$-Lagrangian, multisymplectic] Let $(V, \omega)$ be a multisymplectic vector space of order $k$. A subspace $W \subseteq V$ will be called
+\begin{enumerate}[a)]
+    \item $j$\textbf{-isotropic}, if $W \subseteq W^{\perp, j}$;
+    \item $j$\textbf{-coisotropic}, if $W^{\perp, j} \subseteq W + \ker \flat_1$;
+    \item $j$\textbf{-Lagrangian}, if $W = W^{\perp, j} + \ker \flat_1$;
+    \item \textbf{non-degenerate}, if $W \cap W^{\perp, 1} = 0.$
+\end{enumerate}
+\end{Def}
+\begin{obs} Notice that when $\omega$ is regular, $\ker \flat_1 = 0$, and we recover the standard definitions of $j$-isotropic, $j$-coisotropic, and $j$-Lagrangian.
+\end{obs}
+\begin{proposition}\label{prop:characterizationisotropic} Let $(V, \omega)$ be a multisymplectic vector space of order $k$. Then, a subspace $i: W \rightarrow V$ ($i$ being the natural inclusion) is $k$-isotropic if and only if $$i^\ast \omega = 0.$$
+\end{proposition}
+\begin{proof}$W$ is $k$-isotropic if and only if $$\omega(w_1, \dots, w_{k+1}) = 0,$$ for every $w_1, \dots, w_{k+1} \in W$ or, equivalently, $i^\ast \omega = 0.$
+\end{proof}
+ \begin{example}\label{ex:verticalforms} Let $L$ be a vector space and $\mathcal{E} \subseteq L$ be a proper subspace. For $r \geq 0$, $k \leq \dim L$, define $$\bigwedge^k_r L^\ast := \left\{\alpha \in \bigwedge^k L^\ast : \,\, \iota_{v_1 \wedge \cdots \wedge v_r} \alpha = 0,\, \forall v_1, \dots, v_r \in \mathcal{E}\right\}.$$Notice that, if $r \leq \dim \mathcal{E}$, for the subspace $\bigwedge^k_r L^\ast$ to be non trivial, we need to ask $k - r + 1 \leq \codim \mathcal{E}.$ Then, under these conditions and for $r \geq 2$, $$L \oplus \bigwedge^k_r L^\ast$$ is a non-degenerate subspace of $(L \oplus \bigwedge^k L^\ast, \Omega_L)$ from \cref{ex:canonicalmultisymplectic} and, consequently, $$\left(L \oplus \bigwedge^k_r L^\ast, i^\ast\Omega_L\right)$$ is a regular multisymplectic vector space, where $i$ is the natural inclusion. 
+\end{example}
+
+From now on, we will denote $\Omega_L$ as the multisymplectic form in $L \oplus \bigwedge ^k_r L^\ast,$ making abuse of notation.
+
+\begin{obs} Notice that for $r > \dim \mathcal{E}$, or $\mathcal{E} = 0$, we recover the canonical multisymplectic vector space $L \oplus \bigwedge^k L$. For simplicity, we will refer to this case as $r = 0$. The only degenerate case is for $r = 1$ and we have $$\ker \flat_1 = \mathcal{E}.$$
+\end{obs}
+
+\begin{remark}\label{hypotheseskr}For the sake of clarity in the exposition, we will assume throughout the rest of this section the hypotheses that make $(L\oplus \bigwedge^k_r L^\ast, \Omega_L)$ a regular multisymplectic vector space. More precisely, we will assume $k \leq \dim L$ and, when $r \neq 0$,
+\begin{itemize}
+    \item $k - r +1 \leq \codim \mathcal{E}$;
+    \item $1 < r \leq \dim \mathcal{E}$.
+\end{itemize}
+Any further hypotheses will be made explicit in the corresponding results.
+\end{remark}
+
+\begin{proposition}[\cite{Ibort1999OnTG}] Identify  both $L$ and $W := \bigwedge^k_r L^\ast$ a subspace of $L \oplus \bigwedge^k_r L ^\ast$. Then $L$ is $k$-Lagrangian, and $W$ $1$-Lagrangian in $$\left( L \oplus \bigwedge^k_r L^\ast, \Omega_L\right).$$ 
+\end{proposition}
+\begin{proof}  It is clear that $L$ is $k$-isotropic and that $W$ is $1$-isotropic. To see that $L$ is $k$-coisotropic, let $(l, \alpha) \in L \oplus \bigwedge^k_r L^\ast$ such that $$\Omega_L((l, \alpha), (l_1, 0), \dots, (l_k, 0)) = 0,$$ for every $l_1, \dots, l_k \in L,$ that is, $$\alpha(l_1, \dots, l_k) = 0,$$ for every $l_1, \dots, l_k \in L.$ We conclude $\alpha = 0$, and thus, $$L^{\perp, k} = L = L + \ker \flat_1 \footnote{If $r \neq 1, \ker \flat_1 = 0$ and, if $r = 1$, $\ker \flat_1 = \mathcal{E}$. In any case, the equality $L = L + \ker \flat_1$ holds.}$$
+
+\noindent Now, to see that $W$ is $1$-Lagrangian, let $(l, \alpha) \in L \oplus \bigwedge^k_r L^\ast$ such that $$\Omega_L((l, \alpha), (0, \beta_1), (l_2, \beta_2), \dots, (l_k, \beta_k)) = 0,$$ for every $\beta_1, \dots, \beta_k \in \bigwedge^k_r L^\ast$, and $l_2, \dots, l_k \in L.$ Then, $$\beta_1(l, l_2, \dots, l_k) = 0,$$ for every $l_2, \dots, l_k \in L.$ Now we distinguish two cases:
+\begin{enumerate}
+    \item\underline{Case $r \neq 1$}. Then, necessarily $l = 0$, concluding $$W^{\perp, 1} = W = W + \ker \flat_1,$$ because $\ker \flat_1 = 0.$
+    \item \underline{Case r = 1}. If $$\beta_1(l, l_2, \dots, l_k) = 0,$$ for every $l_2, \dots, l_k \in L$, we have $l \in \mathcal{E}$ and, therefore, $$(l, \alpha) \in W + \ker \flat_1,$$ proving that $W$ is $1$-Lagrangian.
+\end{enumerate}
+\end{proof} 
+
+An important class of multisymplectic vector spaces are those that are multisymplectomorphic to those of \cref{ex:canonicalmultisymplectic} and \cref{ex:verticalforms}. First observe the following:
+\begin{proposition}\label{prop: characterization} A non-degenerate multisymplectic vector space $(V, \omega)$ is multisymplectomorphic to the one defined in \cref{ex:verticalforms} if and only if there exists $\mathcal{E}, L, W \subseteq V$ satisfying:
+\begin{itemize}
+    \item $L$ is $k$-Lagrangian with $\mathcal{E} \subseteq L$;
+    \item $W$ is $1$-Lagrangian and, if $e_1, \dots, e_r \in \mathcal{E}$, we have $$\iota_{e_1 \wedge \cdots \wedge e_r} \omega = 0;$$
+    \item $V = L \oplus W$ and $$\dim W = \dim \bigwedge ^k_r L^\ast,$$ where the vertical forms are taken with respect to $\mathcal{E}.$
+\end{itemize}
+\end{proposition}
+\begin{proof} It is clear the hypothesis imply that the following linear map $$\phi: W \rightarrow \bigwedge^k_r L^\ast; \,\, \alpha \mapsto (\iota_\alpha \omega) |_L$$ defines a linear isomorphism. Now, let $\Phi$ be the isomorphism given by $$\Phi:= id_L \oplus \phi: V = L \oplus W \rightarrow L \oplus \bigwedge^k_r L^\ast.$$ We have $\Phi^\ast \Omega_L = \omega.$ Indeed,
+\begin{align*}
+    &(\Phi^\ast \Omega_L) (l_1 + \alpha_1, \dots, l_{k +1}+ \alpha_{k +1}) = \Omega_L((l_1, \phi(\alpha_1), \dots, (l_{k+1}, \phi(\alpha_{k+1}))) = \\
+    &= \sum_{j = 1}^{k+1} (-1)^{j+1} (\phi(\alpha_j))(l_1, \dots, \hat{l}_j, \dots, l_{k+1})= \sum_{j= 1}^{k+1} (-1)^{j+1}\omega( \alpha_j, l_1, \dots, \hat{l}_j, \dots, l_{k+1}) \\
+    &= \sum_{j= 1}^{k+1} \omega( l_1, \dots, l_{j-1}, \alpha_j, l_{j+1} \dots, l_{k+1}) = \omega(l_1 + \alpha_1, \dots, l_{k +1}+ \alpha_{k +1}),
+\end{align*}
+proving the result.
+\end{proof}
+We can prove a weaker version of \cref{prop: characterization}. Indeed, given $\mathcal{E}$, $L$, $W$ satisfying the hypotheses, we can canonically identify $\mathcal{E}$ as a subspace of $V/W$ via the isomorphism $$V/W \cong L.$$ It is easily verified that $$\iota_{ e_1 \wedge \cdots \wedge e_r} \omega = 0,$$ for all $e_1, \dots, e_r \in \mathcal{E}$ is equivalent to $$\iota_{v_1 \cdots \wedge v_r} \omega = 0,$$ for all $v_1, \dots, v_r \in V$satisfying $\pi(v_i) \in \mathcal{E}$ (identifying $\mathcal{E}$ as a subspace of $V/W$), for every $1 \leq i \leq r.$ We have the following:
+\begin{theorem}[\cite{deleon2003tulczyjews}]\label{thm:type(kr)} A non-degenerate multisymplectic vector space $(V, \omega)$ is multisymplectomorphic to $(L \oplus \bigwedge^k_r L^\ast, \Omega_L)$ if and only if there exists $ W \subseteq V$ and $\mathcal{E} \subseteq V/W$ satisfying:
+\begin{itemize}
+    \item $W$ is $1$-Lagrangian and, for all $v_1, \dots, v_r \in V$ with $\pi(v_i) \in \mathcal{E}$ (with $\pi: V \rightarrow V/W$ the canonical projection), we have $$\iota_{ v_1 \wedge \cdots \wedge v_r} \omega = 0;$$
+    \item There is an equality of dimensions $$\dim W = \dim \bigwedge ^k_r V/W,$$ where the vertical forms are taken with respect to $\mathcal{E}.$
+\end{itemize}
+\end{theorem}
+To prove it, we will need the following Proposition, which will also be useful in the sequel:
+
+\begin{proposition}\label{isotropicdecomposition} Let $(V, \omega)$ be a multisymplectic vector space, and $U$, $W$ be $k$-isotropic, and $1$-isotropic subspaces respectively such that
+$$V = U \oplus W.$$
+Then, $U$ is $k$-Lagrangian, and $W$ is $1$-Lagrangian.
+\end{proposition}
+\begin{proof} We need to prove that $$U^{\perp, k} = U + \ker \flat_1.$$ Let $u + w \in U^{\perp, k},$ for $u \in U$, $w \in W$. Then, for all $u_1, \dots, u_k \in U$ we have $$\omega(u + w, u_1, \dots, u_k) = \omega(w, u_1, \dots, u_k) = 0,$$ where we have used that $U$ is $k$-isotropic. We claim that $w \in \ker \flat_1.$ Indeed, given $v_i \in V$, for $i = 1, \dots, k$, we can write $v_i = u_i + w_i$, with $u_i \in U$, $w_i \in W$. Then, $$\omega(w, v_1, \dots, v_k) = \omega(w, u_1 + w_1, \dots, u_k +w_k) = \omega(w, u_1, \dots, u_k) = 0,$$ where in the last equality we used that $W$ is $1$-isotropic. Therefore, if $u + w \in U^{\perp, k},$ we have $$u + w \in U +\ker \flat_1,$$ that is $$U^{\perp, k} \subseteq U + \ker \flat_1,$$ proving that $U$ is $k$-coisotropic and, therefore, $k$-Lagrangian.\\
+
+\noindent To show that $W$ is $1$-Lagrangian, let $u + w \in W^{1, \perp}$, with $u \in U$, $w \in W$. Then $u \in \ker \flat_1.$ Let $v_i = u_i + + w_i$, $u_i \in U$, $w_i \in W$, $1 \leq i \leq k$. Since $W$ is $1$-isotropic, for every $1 \leq i \leq k$ $$\iota_{u \wedge w_i} \omega = \iota_{(u + w) \wedge w_i} \omega = 0.$$ Now, using that $U$ is $k$-isotropic, and $W$ is $1$-isotropic,
+$$\omega(u, u_1 + w_1, \dots, u_k + w_k) = \sum_{j = 1}^{k} \omega(u, u_1,\dots, u_{j-1}, w_j,u_{j+1}, \dots, u_k) = 0.$$
+Therefore, $u \in \ker \flat_1$ and $u + w \in W + \ker \flat_1,$ showing that $$W^{\perp, 1} = W + \ker \flat_1,$$ ending the proof.
+\end{proof}
+
+\begin{proof}[Proof (of \cref{thm:type(kr)})] The proof we give mimics the case $r = 0$ from \cite{Sevestre_2019}. It is enough to show the existence of a $k$-Lagrangian complement to $W$. By \cref{isotropicdecomposition}, we will conclude the proof once we show that there exists a $k$-isotropic complement.\\
+
+\noindent First observe that, since $W$ is $1$-Lagrangian, $\iota_\alpha \omega$ induces a form on $V/W$ defining $$\phi(\alpha)(\pi(v_1), \dots, \pi(v_{k})) := \omega(\alpha, v_1, \dots, v_k),$$ for every $\alpha \in W$. This map defines a linear isomorphism $$\phi: W \rightarrow \bigwedge^k_r (V/W)^\ast,$$ where the vertical forms are taken with respect to $\mathcal{E}.$ Take $L$ any complement to $W$ in $V$ and define the linear isomorphism $$\Phi:= id_L \oplus \phi: V = L \oplus W \rightarrow L \oplus \bigwedge^k_r (V/W)^\ast.$$ We will look for subspaces of the form $\Phi^{-1} \circ \mathbf{A} (L),$ where $\mathbf{A} = id_L \oplus A,$ with $$A: L\rightarrow \bigwedge^k_r(V/W)^\ast.$$
+For this subspace to be $k$-isotropic, it has to satisfy $$\omega(\Phi^{-1} \circ \mathbf{A} (l_1), \dots, \Phi^{-1} \circ \mathbf{A}(l_{k+1})) = 0,$$ for all $l_1, \dots, l_{k+1} \in L.$ We have 
+\begin{align*}
+    \omega(\Phi^{-1} \circ \mathbf{A} (l_1), \dots, \Phi^{-1} \circ \mathbf{A}(l_{k+1})) = \omega(l_1 + \Phi^{-1} A ( l_1), \dots, l_{k+1} + \Phi^{-1} A ( l_{k+1})) = \\
+    \omega(l_1, \dots, l_{k+1}) + \sum_{j= 1}^{k+1}(-1)^{j+1} \omega(\Phi^{-1}A(l_j), l_1, \dots, \hat{l}_j, \dots, l_{k+1})\\
+    =  \omega(l_1, \dots, l_{k+1}) + \sum_{j= 1}^{k+1}(-1)^{j+1} (A(l_j)) (\pi(l_1), \dots, \hat{l}_j, \dots,  \pi(l_{k+1})).
+\end{align*}
+Notice that the projection $\pi$ restricted to $L$ defines an isomorphism $$\pi|_L: L \rightarrow V/W.$$
+Define $A$ closing the following diagram\footnote{Notice that these functions are well defined. Indeed, $\iota_l \omega \in \bigwedge^k_r L ^\ast$ for any $l \in L$.}
+% https://q.uiver.app/#q=WzAsMyxbMCwwLCJMIl0sWzIsMCwiXFxiaWd3ZWRnZV5rX3JMXlxcYXN0Il0sWzIsMSwiXFxiaWd3ZWRnZV5rX3IgKFYvVyleXFxhc3QiXSxbMiwxLCJcXHBpXlxcYXN0IiwyXSxbMCwxLCJcXHBzaSJdLFswLDIsIkEiLDIseyJjdXJ2ZSI6Mn1dXQ==
+\[\begin{tikzcd}
+	L && {\bigwedge^k_rL^\ast} \\
+	&& {\bigwedge^k_r (V/W)^\ast}
+	\arrow["\psi", from=1-1, to=1-3]
+	\arrow["A"', curve={height=12pt}, from=1-1, to=2-3]
+	\arrow["{\pi^\ast}"', from=2-3, to=1-3]
+\end{tikzcd},\] where $$\psi(l) := -\frac{\iota_l \omega}{k+1}.$$Then,
+\begin{align*}
+    &\sum_{j= 1}^{k+1}(-1)^{j+1} (A(l_j)) (\pi(l_1), \dots, \hat{l}_j, \dots,  \pi(l_{k+1}) = \sum_{j= 1}^{k+1}  (-1)^{j+1}(\pi^\ast A(l_j))(l_1, \dots, \hat{l}_j, \dots, l_{k+1})= \\
+    &\sum_{j= 1}^{k+1} \frac{(-1)^{j}}{ k+1} \omega(l_j,l_1, \dots, \hat{l}_j, \dots, l_{k+1}) = - \omega(l_1, \dots, l_{k+1}),
+\end{align*}
+concluding $$\omega(\Phi^{-1} \circ \mathbf{A} (l_1), \dots, \Phi^{-1} \circ \mathbf{A}(l_{k+1})) = 0,$$ and proving the result.
+\end{proof}
+
+This induces the following definition:
+\begin{Def}[Multisymplectic vector space of type $(k,r)$] A \textbf{multisymplectic vector space of type $(k,r)$} is a tuple $(V,\omega, W, \mathcal{E})$ satisfying the hypothesis of \cref{thm:type(kr)}.
+\end{Def}
+
+In later considerations, the next lemma will be very useful:
+
+\begin{lemma}\label{lemma1} Let $(V, \omega, W, \mathcal{E})$ be a multisymplectic vector space of type $(k,r)$. Then, denoting by $\flat_1$ the induced map $$V \xrightarrow{\flat_1} \bigwedge^k V^\ast,$$ we have $$\bigwedge^k_{1,r} V^\ast \subseteq \flat_{1}( V),$$ where $$\bigwedge^k_{1, r} V^\ast  = \bigwedge ^k_1 V^\ast \cap \bigwedge^k_r V^\ast, $$ and the vertical forms are taken with respect to $W$ and $\mathcal{E}$\footnote{This latter meaning that $\iota_{e_1 \wedge \cdots \wedge e_r} \alpha = 0$, for every $e_1, \dots,e_r \in V$ with $\pi(e_i) \in \mathcal{E}$, where $\pi: V \rightarrow V/W$ is the canonical projection.}, respectively.
+\end{lemma}
+\begin{proof} By \cref{thm:type(kr)}, it is enough to prove it in the canonical case $V = L \oplus \bigwedge_r^k L^\ast, W = \bigwedge^k_r L^\ast.$ Then, any $k$-form $\alpha \in \bigwedge^k_{1,r} V$ is the pull-back of a $k$-form $\widetilde \alpha \in \bigwedge^k_r L^\ast$. An elementary calculation proves that $$\iota_{\widetilde \alpha} \Omega_L = \alpha.$$
+\end{proof}
+

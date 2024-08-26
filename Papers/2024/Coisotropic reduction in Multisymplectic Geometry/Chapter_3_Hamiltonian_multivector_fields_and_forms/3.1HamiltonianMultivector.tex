@@ -1,0 +1,77 @@
+\begin{Def}[\cite{HamiltonianStructuresIbort} Hamiltonian multivector field, Hamiltonian form] Let $(M, \omega)$ be a multisymplectic manifold of order $k$. A multivector field $$U: M \rightarrow \bigvee_q M$$ will be called a \textbf{Hamiltonian multivector field} if there exists a $(k-q)$-form on $M$, $\alpha$, such that $$\iota_U \omega = d \alpha.$$ In this context, $\alpha$ is called the \textbf{Hamiltonian form} associated to $U$. Furthermore, $U$ will be called a \textbf{locally Hamiltonian multivector field} if $\iota_U\omega$ is closed. Of course, if $U$ is Hamiltonian, it is locally Hamiltonian.
+\end{Def}
+
+We will denote by $\mathfrak{X}^q_H(M)$ the space of all Hamiltonian multivector fields of order $q$, and by $\Omega^{l}_H(M)$ the space of all Hamiltonian $l$-forms.\\
+
+There is certain ``correspondence" between Hamiltonian multivector fields and Hamiltonian forms. However, this correspondance is not well defined, a Hamiltonian multivector field $U$ can be associated to different Hamiltonian forms, and viceversa. Nevertheless, if $$\iota_U\omega = d \alpha = d \beta,$$ for some $\alpha, \beta \in \Omega^l_H(\Omega)$, we have that $$d(\alpha - \beta) = 0.$$ Therefore, we obtain a well defined epimorphism $$\mathfrak{X}^q_H(M) \xrightarrow{\flat_q} \Omega^{k - q}_H (M) /Z^{k-q}(M) =: \Hform{k-q}{M},$$ where $Z^{k-q}(M)$ is the space of all closed forms, mapping each Hamiltonian multivector field $U$ to the class of Hamiltonian forms $[\alpha]$ satisfying $$\iota_U\omega = d \alpha.$$ We would like this map to be inyective, and we can achieve this by quotienting $\mathfrak{X}^q_H(M)$ by $\ker \flat_q$, which is the space of all multivector fields $U$ satisfying $$\iota_U \omega = 0.$$ Therefore, defining $$\Hmultivector{q}{M} := \mathfrak{X}_H^q(M) /\ker \flat_q,$$ we obtain isomorphisms between the spaces
+% https://q.uiver.app/#q=WzAsMTAsWzAsMCwiXFxIbXVsdGl2ZWN0b3J7MX17TX0iXSxbMiwwLCJcXEhtdWx0aXZlY3RvcntxfXtNfSJdLFs0LDAsIlxcSG11bHRpdmVjdG9ye2t9e019Il0sWzAsMiwiXFxIZm9ybXtrLTF9e019Il0sWzIsMiwiXFxIZm9ybXtrLXF9e019Il0sWzQsMiwiXFxIZm9ybXswfXtNfSJdLFsxLDAsIlxcY2RvdHMiXSxbMSwyLCJcXGNkb3RzIl0sWzMsMCwiXFxjZG90cyJdLFszLDIsIlxcY2RvdHMiXSxbMCwzLCJcXFBoaV8xIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzEsNCwiXFxQaGlfcSIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6ImFycm93aGVhZCJ9fX1dLFsyLDUsIlxcUGhpX2siLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJhcnJvd2hlYWQifX19XV0=
+\[\begin{tikzcd}
+	{\Hmultivector{1}{M}} & \cdots & {\Hmultivector{q}{M}} & \cdots & {\Hmultivector{k}{M}} \\
+	\\
+	{\Hform{k-1}{M}} & \cdots & {\Hform{k-q}{M}} & \cdots & {\Hform{0}{M}}
+	\arrow["{\flat_1}", tail reversed, from=1-1, to=3-1]
+	\arrow["{\flat_q}", tail reversed, from=1-3, to=3-3]
+	\arrow["{\flat_k}", tail reversed, from=1-5, to=3-5]
+\end{tikzcd}.\]
+Of course, these isomorphisms induce an isomorphism between the corresponding graded vector spaces 
+$$\SHmultivector{M} := \bigoplus_{q = 1}^{k} \Hmultivector{q}{M} \xrightarrow{ \flat} \SHform{M} := \bigoplus_{q = 1}^{k} \Hform{k - q}{M}.$$ We can try to endow these spaces with a graded Lie algebra structure. Given the isomorphism, it would be enough to define the bracket in one of the spaces and obtain the induced bracket in the other via the $\flat$ mappings. 
+\begin{proposition}[\cite{HamiltonianStructuresIbort}]\label{bracketmultivectorfields} Let $(M, \omega)$ be a multisymplectic manifold, and $U , V$ be Hamiltonian multivector fields of degree $p, q$, respectively. Then, $[U, V]$ is a Hamiltonian multivector field of degree $p + q - 1$, where $[\cdot, \cdot]$ denotes the Schouten-Nijenhuis bracket (see \cite{vaisman2012lectures}).
+\end{proposition}
+\begin{proof} We have the equality (see \cite{vaisman2012lectures}) $$\iota_{[U, V]} \omega =  - d \iota_{U \wedge V} \omega,$$ which proves the proposition.
+\end{proof}
+Given the equality $$\iota_{[U, V]}\omega = - d \iota_{U \wedge V} \omega$$ from \cref{bracketmultivectorfields}, we have that whenever $U \in \ker \flat_p$ (or $V \in \ker \flat_q$),  then 
+$$
+[U, V] \in \ker \flat_{p +q - 1}.
+$$ 
+Therefore, we obtain a well defined bracket $$\Hmultivector{p}{M} \times \Hmultivector{q}{M} \rightarrow \Hmultivector{p +q -1}{M}; \,\, (\widehat{U}, \widehat{V}) \mapsto [\widehat{U}, \widehat{V}]:= \widehat{[U, V]},$$ where $\widehat{U}$ denotes the class of $U$ modulo $\ker \flat_q.$ By the previous considerations, we define the induced bracket in $\SHform{M}$ through the following commutative diagram,
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXEhmb3Jte2x9e019IFxcdGltZXMgXFxIZm9ybXttfXtNfSJdLFswLDEsIlxcSG11bHRpdmVjdG9ye2sgLSBsfXtNfSBcXHRpbWVzIFxcSG11bHRpdmVjdG9ye2sgLSBtfXtNfSJdLFsxLDAsIlxcSGZvcm17MSArIGwgKyBtIC0ga317TX0iXSxbMSwxLCJcXEhtdWx0aXZlY3RvcnsyayAtIGwgLSBtIC0gMX17TX0iXSxbMCwyLCJcXHtcXGNkb3QsIFxcY2RvdFxcfSJdLFsxLDMsIltcXGNkb3QsIFxcY2RvdF0iXSxbMCwxLCJcXHNpbSIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6ImFycm93aGVhZCJ9fX1dLFsyLDMsIlxcc2ltIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV1d
+\[\begin{tikzcd}
+	{\Hform{l}{M} \times \Hform{m}{M}} & {\Hform{1 + l + m - k}{M}}\\
+	{\Hmultivector{k - l}{M} \times \Hmultivector{k - m}{M}} & {\Hmultivector{2k - l - m - 1}{M}}
+	\arrow["{\{\cdot, \cdot\}}", from=1-1, to=1-2]
+	\arrow["{[\cdot, \cdot]}", from=2-1, to=2-2]
+	\arrow["\flat_{k - l} \times \flat_{k - m}"{description}, tail reversed, from=1-1, to=2-1]
+	\arrow["\flat_{2k - l - m -1}"{description}, tail reversed, from=1-2, to=2-2]
+\end{tikzcd}.\] This bracket is given by $$\{\hat{\alpha}, \hat{\beta}\} = - \widehat{ \iota_{U \wedge V} \omega},$$ where $\iota_U \omega = d \alpha$, $\iota_V \omega = d \beta,$
+and satisfies the following equalities (which follow easily from the equalities of Schouten-Nijenhuis bracket \cite{vaisman2012lectures})
+\begin{itemize}
+    \item[$i)$] $$\{\widehat{\alpha}, \widehat{\beta}\} = (-1)^{l_1l_2}\{\widehat{\beta}, \widehat{\alpha}\};$$
+    \item[$ii)$] $$(-1)^{l_1(l_3 -1)}\{\widehat{\alpha},\{\widehat{\beta}, \widehat{\gamma}\}\} + (-1)^{l_2(l_1 -1)}\{\widehat{\beta},\{\widehat{\gamma}, \widehat{\alpha}\}\} + (-1)^{l_3(l_2 -1)}\{\widehat{\gamma},\{\widehat{\alpha}, \widehat{\beta}\}\} = 0,$$
+\end{itemize}
+ for $\widehat{\alpha} \in \Hform{l_1}{M}, \widehat{\beta} \in \Hform{l_2}{M}, \widehat{\gamma} \in \Hform{l_3}{M}.$ However, this bracket does not define a graded Lie algebra and we need to modify the definition slightly to get a bracket that does. First, recall that a graded Lie bracket needs to satisfy
+$$\deg \{\widehat{\alpha}, \widehat{\beta}\} = \deg \widehat{\alpha} + \deg \widehat{\beta},$$ for certain notion of degree. Now, since the subspace $\Hform{k-1}{M}$ is closed under $\{\cdot, \cdot\}$, we are forced to set
+$$\deg \widehat{\alpha} := 0,$$ for $\alpha \in \Hform{k-1}{M}.$ Therefore, one is tempted to define $$\deg \widehat{\alpha} := k -1 - (\text{order of } \alpha),$$ for $\widehat{\alpha} \in \SHform{M}.$ And, indeed, for 
+$\widehat{\alpha} \in \Hform{l}{M}, \widehat{\beta} \in \Hform{m}{M}$, we have $$\deg\{\widehat{\alpha}, \widehat{\beta}\} = k - 1 - (1 + l + m - k)= 2k - l - m - 2 = (k - 1 - l) + (k - 1 - m) = \deg \widehat{\alpha} + \deg \widehat{\beta}.$$ We can now define $$\{\widehat{\alpha}, \widehat{\beta}\}^\bullet := (-1)^{\deg \widehat \alpha} \{ \widehat{\alpha}, \widehat{\beta}\},$$ and we have that
+\begin{itemize}
+    \item[$i)$] $$\{\widehat{\alpha}, \widehat{\beta}\}^\bullet = -(-1)^{\deg \widehat{\alpha} \deg \widehat{\beta}} \{\widehat{\beta}, \widehat{\alpha}\}^\bullet,$$
+    \item[$ii)$] $$(-1)^{\deg \widehat{\alpha} \deg \widehat{\gamma}}\{\widehat{\alpha}, \{\widehat{\beta}, \widehat{\gamma}\}^\bullet\}^\bullet + \text{cycl.} = 0.$$
+\end{itemize}
+
+Summarizing, we have proved
+\begin{theorem}[\cite{HamiltonianStructuresIbort}] $(\SHform{M}, \{ \cdot, \cdot\}^\bullet)$ is a graded Lie algebra.
+\end{theorem}
+
+\begin{remark} Of course, restricting this structure to the forms of order $k-1$ we obtain the Lie algebra $(\Hform{k-1}{M}, \{ \cdot, \cdot\}^\bullet)$. This Lie algebra is of particular importance in the study of multisymplectic manifolds, since $(k-1)$-forms represent the \textit{conserved quantities} and \textit{currents} of classical field theory and calculus of variations.
+\end{remark}
+
+\begin{remark} If $(M, \omega) = (\bigwedge^k_2 L, \Omega_L),$ we can obtain a graded Lie bracket without quotienting by closed forms by restricting the bracket to the subspace of semi-basic forms. For further details, we refer to \cite{KANATCHIKOV1997225}.
+\end{remark}
+
+Similar to the characterization of coisotropic submanifold of a symplectc manifold in terms of the Poisson algebra, we can prove the following result.\\
+
+\begin{proposition}\label{prop:subalgebracoisotropic} Let $i: N \hookrightarrow M$ be a $k$-coisotropic submanifold. Then $$ \widehat{I}_N := \{ \widehat{\alpha} \in \Hform{k-1}{M} : \,\, i^\ast d\alpha = 0\}\footnote{\text{That is, the space of all Hamiltonian $(k-1)$-forms that have a representative which is closed on $N$.}}$$ defines a subalgebra of $(\Hform{k-1}{M}, \{\cdot, \cdot\}^{\bullet}).$
+\end{proposition}
+\begin{proof}
+Let $\widehat{\alpha}, \widehat{\beta} \in \widehat{I}_N.$ Then, there are vector fields $X_\alpha, X_\beta$ satisfying $$\iota_{X_\alpha} \omega = d \alpha, \,\, \iota_{X_\beta} \omega = d \beta.$$ Since $i^\ast d\alpha, i^\ast d\beta = 0,$ we conclude that $X_\alpha, X_\beta$ take values in $(TN)^{\perp, k} \subseteq TN + \ker \flat_1.$ Without loss of generality, we can assume that $X_\alpha$, $X_\beta$ take values in $TN$. Now, since $$\{\widehat{\alpha}, \widehat{\beta}\}^\bullet =  (-1)^{(k-1)} \widehat{ \iota_{X_\alpha \wedge X_\beta} \omega},$$ and $X_\alpha$, $X_\beta$ take values in $(TN)^{\perp, k}$ and $TN$ , we have $$  i^\ast \left(\iota_{X_\alpha \wedge X_\beta} \omega\right) = 0,$$ concluding that $$\{\widehat{\alpha}, \widehat{\beta}\}^\bullet \in \widehat{I}_N.$$
+\end{proof}
+\begin{remark} When $(M, \omega)$ is non-degenerate, each Hamiltonian $(k-1)$-form $\alpha$ defines an \textit{unique} vector field $X_\alpha$ satisfying $$\iota_{X_\alpha} \omega = d \alpha.$$ Therefore, the bracket $$\{\alpha, \beta\} = \iota_{X_\alpha\wedge X_\beta}\omega$$ is well defined. This, however, does not define a Lie algebra since the Jacobi identity holds up to an exact form. Nevertheless, it does defines an algebraic structure called an $L_\infty$-algebra (see \cite{Linfintyalgebra}). \cref{prop:subalgebracoisotropic} is also true in this context, that is, to each coisotropic submanifold $N$, there is the corresponding $L_\infty$-algebra of forms that are closed on $N$.
+\end{remark}
+
+Let us now briefly discuss conserved quantities. Consider a locally decomposable Hamiltonian multivector field of order $q$, $$\iota_{X_H} \omega = dH,$$ where $H \in \Omega^{k-q}(M)$ is the Hamiltonian. We will consider as a solution any immersion $\phi: \Sigma \rightarrow M,$ where $\dim \Sigma = q,$ satisfying $$\phi_\ast U = X_H,$$ where $U$ is some nowhere vanishing multivector field of order $q$ on $\Sigma.$ Then, a conserved quantity (for the solution $\phi$) is a $(q-1)$-form satisfying $$d \phi^\ast \alpha = 0.$$ In terms of possibly non-decomposable (nor integrable) multivector fields, this notion extends as follows
+\begin{Def}[Conserved quantity] A conserved quantity for a Hamiltonian multivector field $X_H \in \mathfrak{X}^q(M)$ is a $(q-1)-$form $\alpha$ on $M$ satisfying $$\langle d \alpha, X_H \rangle = 0.$$ 
+\end{Def}
+Then, for Hamiltonian forms, we have the following
+\begin{proposition} Let $X_H$ be a Hamiltonian multivector field of order $q$, with Hamiltonian form $H \in \Omega^{k-q}(M)$ and $\alpha$ be a Hamiltonian form of order $q-1$. Then $\alpha$ is a conserved quantity for $X_H$ if and only if $$\{\widehat\alpha, \widehat H\}^\bullet = 0.$$
+\end{proposition}
+
+For a treatment of conserved quantities and moment maps using the $L_\infty-$algebra strcuture of observables, we refer to \cite{ExistenceOfComoments,ConservedQuantitiesMarco}.

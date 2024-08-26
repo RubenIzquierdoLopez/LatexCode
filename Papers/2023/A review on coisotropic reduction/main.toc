@@ -1,0 +1,46 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Symplectic vector spaces}{5}{section.2}%
+\contentsline {section}{\numberline {3}Coisotropic reduction in symplectic geometry}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Hamiltonian vector fields as Lagrangian submanifolds}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Coisotropic reduction}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Projection of Lagrangian submanifolds}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}An example}{10}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Poisson structures}{11}{section.4}%
+\contentsline {section}{\numberline {5}Coisotropic reduction in cosymplectic geometry}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Hamiltonian vector fields as Lagrangian submanifolds}{16}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Coisotropic reduction}{18}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Vertical coisotropic reduction}{20}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Projection of Lagrangian submanifolds}{21}{subsubsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.4}Horizontal coisotropic reduction}{23}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Projection of Lagrangian submanifolds}{24}{subsubsection.5.4.1}%
+\contentsline {section}{\numberline {6}Jacobi structures}{24}{section.6}%
+\contentsline {section}{\numberline {7}Coisotropic reduction in contact geometry}{26}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Hamiltonian vector fields as Lagrangian submanifolds}{27}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}An overview of the use of contact geometry in thermodynamics}{30}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Coisotropic reduction}{31}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Vertical coisotropic reduction}{33}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}Projection of Legendrian submanifolds}{34}{subsubsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.5}Horizontal coisotropic reduction}{35}{subsection.7.5}%
+\contentsline {section}{\numberline {8}An interlude: Different geometries provide different dynamics}{35}{section.8}%
+\contentsline {subsection}{\numberline {8.1}The Lagrangian picture}{35}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}The Herglotz principle}{38}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}The Legendre transformation and the Hamiltonian picture}{39}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Coisotropic reduction in cocontact geometry}{40}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Hamiltonian vector fields as Lagrangian submanifolds}{41}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Coisotropic reduction}{43}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}$tz-$vertical reduction}{45}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}Projection of Legendrian submanifolds}{46}{subsubsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.4}$t-$vertical, $z-$horizontal reduction}{47}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}$z-$vertical, $t-$horizontal reduction}{47}{subsection.9.5}%
+\contentsline {subsubsection}{\numberline {9.5.1}Projection of Legendrian submanifolds}{47}{subsubsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.6}$tz-$horizontal reduction}{48}{subsection.9.6}%
+\contentsline {section}{\numberline {10} Coisotropic reduction in stable Hamiltonian structures}{48}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Hamiltonian vector fields as Lagrangian submanifolds}{52}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Vertical coisotropic reduction}{53}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}Projection of Lagrangian submanifolds}{54}{subsubsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.3}Horizontal coisotropic reduction}{54}{subsection.10.3}%
+\contentsline {subsubsection}{\numberline {10.3.1}Projection of Lagrangian submanifolds}{55}{subsubsection.10.3.1}%
+\contentsline {section}{\numberline {11}Conclusions}{55}{section.11}%
+\contentsline {section}{\numberline {12}Acknowledgements}{55}{section.12}%
+\contentsline {section}{References}{55}{section*.1}%

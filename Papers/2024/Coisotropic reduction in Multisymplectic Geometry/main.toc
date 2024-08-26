@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Multisymplectic geometry}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Multisymplectic vector spaces}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Multisymplectic manifolds}{11}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Hamiltonian structures on multisymplectic manifolds}{14}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Hamiltonian multivector fields and forms. Brackets}{14}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Hamiltonian multivector fields as Lagrangian submanifolds}{18}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Complete lift of forms to multivector bundles}{20}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Coisotropic submanifolds}{23}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Local form of coisotropic submanifolds}{23}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Coisotropic reduction}{27}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Conclusions and further work}{33}{section.5}%
+\contentsline {section}{References}{33}{section*.3}%

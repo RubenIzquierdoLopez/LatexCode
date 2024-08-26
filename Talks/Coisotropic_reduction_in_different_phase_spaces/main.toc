@@ -1,0 +1,3 @@
+\babel@toc {english}{}\relax 
+\beamer@sectionintoc {1}{Coisotropic reduction in non-dissipative mechanics}{3}{0}{1}
+\beamer@sectionintoc {2}{Coisotropic reduction in dissipative mechanics}{23}{0}{2}

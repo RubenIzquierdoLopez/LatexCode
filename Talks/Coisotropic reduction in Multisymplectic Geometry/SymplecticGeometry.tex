@@ -1,0 +1,83 @@
+\begin{frame}{Symplectic manifolds}
+   \begin{definition}[Symplectic manifold] A \alert{symplectic manifold} is a pair $(M, \omega)$, where $M$ is a $2n$-dimensional manifold, and $\omega \in \Omega^2(M)$ is a closed, non-degenerate, $2$-form.
+   \end{definition}
+   \pause
+   Thus, for every symplectic manifold we have an isomorphism induced by contraction $$TM \xrightarrow{\flat} T^\ast M; \,\, v \mapsto \iota_v \omega.$$ 
+   \pause
+   \begin{definition} For a subspace $i: W \hookrightarrow T_x M,$ define the \alert{symplectic orthogonal} as $$W^\perp := \{v \in T_q M, \,\, \omega(v, w) = 0, \forall w \in W \} = \ker i^\ast \circ \flat.$$
+   \end{definition}
+
+   $$\alert{\dim W^\perp = 2n - \dim W}$$
+\end{frame}
+
+\begin{frame}{Symplectic orthogonal}
+\begin{definition} A subspace $W \subseteq T_xM$ (res. submanifold $L$) is called
+\begin{itemize}
+    \item \alert{isotropic} if $W \subseteq W^\perp$ (res. $T_x L \subseteq (T_x L)^\perp, \forall x \in L$);
+    \item \alert{Lagrangian} if $W = W^\perp$ (res. $(T_x L)^\perp = T_x L, \forall x \in L$).
+    \item \alert{coisotropic} if $ W^\perp \subseteq W^\perp$ (res. $(T_x L)^\perp \subseteq T_x L, \forall x \in L$).
+\end{itemize}
+\end{definition}
+\pause
+A isotropic submanifold is necessarily $n$-dimensional and we have the following characterization:
+\begin{proposition} An $n$-dimensional submanifold $i: N \hookrightarrow M$ is Lagrangian if and only if $i^\ast \omega = 0.$
+\end{proposition}
+\end{frame}
+
+\begin{frame}{Dynamics $=$ Lagrangian submanifolds}
+    \begin{definition} Given a function $H \in C^\infty(M)$ define the \alert{Hamiltonian vector field} $X_H \in \mathfrak{X}(M)$ as the unique vector field sastifying $$\iota_{X_H}\omega = dH.$$ A vector field $X \in \mathfrak{X}(M)$ is called \alert{locally Hamiltonian} if $\iota_X \omega$ is closed.
+\end{definition}
+\pause
+With the isomorphism $\flat: TM \rightarrow T^\ast M$ we can define $$\widetilde \omega := \flat ^\ast \omega_M.$$
+\begin{theorem} A vector field $X: M \rightarrow TM$ is locally Hamiltonian if and only if it defines a Lagrangian submanifold.
+\end{theorem}
+\begin{proof} $X(M)$ is Lagrangian if and only if $$0 = X^\ast \widetilde \omega = -d \iota_X \omega.$$
+\end{proof}
+\end{frame}
+
+\begin{frame}{Coisotropic reduction}
+Given a coisotropic submanifold $i:N \hookrightarrow M$, the distribution $$x \mapsto (T_x N)^\perp$$ is regular and involutive. Therefore, it arises from a maximal foliation $\mathcal{F}$.
+\pause
+\begin{theorem} If $N/\mathcal{F}$ admits a smooth manifold structure such that $\pi: N \rightarrow N/\mathcal{F}$ defines a submersion, then there is an unique symplectic form $\omega_N$ on $N/\mathcal{F}$ such that $$\pi^\ast \omega_N = i^\ast \omega.$$ \alert{Furthermore, if $L$ is a Lagrangian submanifold in $M$, $\pi(L \cap N)$ is a Lagrangian submanifold in $N/\mathcal{F}.$} 
+\end{theorem}
+
+Allows for reduction of dynamics!
+\end{frame}
+
+\begin{frame}{Coisotropic reduction}
+    \begin{proof} We omit the first part. For the projection of Lagrangian submanifolds, let $L$ be a Lagrangian submanifold and denote $L_N := \pi(L \cap N).$\\
+    \vspace{0.5cm}
+
+It is
+sufficient to see that $\pi(L \cap N)$ is isotropic and that it has maximal dimension in $N / \mathcal{F}$. \pause It is isotropic since $[u] \in
+T_q(L _ N)$ implies $\omega_N([u],[v]) = \omega(u,v) = 0$, for every $[v] \in T_q(L _ N)$.\pause  Now, since $\ker d_q\pi =
+(T_qN)^{\perp_\omega}$, the kernel-range formula yields \begin{equation}\label{eq1symplectic} \dim L_N = \dim(L \cap N) - \dim (T_q L \cap (T_qN)^{\perp_\omega}). \end{equation} 
+Furthermore, \begin{equation}\label{eq2symplectic} \dim(L \cap N) + \dim (T_qL + (T_qN)^{\perp_\omega}) = \dim M,
+\end{equation} because $L$ is Lagrangian and $N$ coisotropic. Substituting (\ref{eq2symplectic})in (\ref{eq1symplectic}) we obtain \begin{align} \nonumber
+\dim L_N &= \dim M - \dim (T_qL + (T_qN)^{\perp_\omega})- \dim (T_q L \cap (T_qN )^{\perp_\omega}) \\ & \nonumber = \dim M - \dim L - \dim (T_qN)^{\perp_\omega} = \dim M - \dim L -(\dim M - \dim N)\\ &\nonumber = \dim N - \dim L = \dim N - \frac{1}{2} \dim
+M, \end{align} which is exactly $\frac{1}{2} \dim N/ \mathcal{F}$, as a direct calculation shows.
+    \end{proof}
+\end{frame}
+
+\begin{frame}{Poisson bracket and Coisotropic submanifolds}
+
+\begin{definition} For $f, g \in C^\infty(M)$, their \alert{Poisson bracket} is defined as $$\{f,g\} := \omega(X_f, X_g).$$
+\end{definition}
+
+We have the following characterization, which is fundamental for the theory of constraints.
+
+\begin{proposition}A submanifold $i: N \rightarrow M$ is coisotropic if and only if, for every pair of functions, $f,g$ constant on $N$, $\{f,g\} = 0$ on $N$.
+\end{proposition}
+\end{frame}
+
+\begin{frame}{Results to be generalized}
+\begin{enumerate}
+    \item Endowing $TM$ with the symplectic structure obtained from $\flat: TM \rightarrow T^\ast M$, we can interpret dynamics as Lagrangian submanifolds.
+    \pause
+    \item Coisotropic submanifolds can be reduced to a symplectic manifold.
+    \pause
+    \item Lagrangian submanifolds project onto Lagrangian submanifolds under this reduction
+    \pause
+    \item Coisotropic submanifolds can be characterized by the Poisson bracket.
+\end{enumerate}    
+\end{frame}

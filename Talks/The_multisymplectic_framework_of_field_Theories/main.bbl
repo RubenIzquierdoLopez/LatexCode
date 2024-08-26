@@ -1,0 +1,208 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global/global}
+  \entry{Binz1988}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=BE}{%
+         family={Binz},
+         familyi={B\bibinitperiod},
+         given={Ernst},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=�J}{%
+         family={Śniatycki},
+         familyi={�\bibinitperiod},
+         given={Jędrzej},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Fischer},
+         familyi={F\bibinitperiod},
+         given={Hans},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {North-Holland ;}%
+    }
+    \strng{namehash}{BE1}
+    \strng{fullhash}{BE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{isbn}{9780080872650}
+    \field{note}{Includes bibliographies and index.}
+    \field{number}{v. 123}
+    \field{pagetotal}{450}
+    \field{series}{Notas de matemática}
+    \field{title}{Geometry of classical fields}
+    \list{location}{1}{%
+      {Amsterdam ;}%
+    }
+    \field{year}{1988}
+  \endentry
+
+  \entry{gotay2004momentummapsclassicalrelativistic}{misc}{}{}
+    \name{author}{4}{}{%
+      {{hash=GMJ}{%
+         family={Gotay},
+         familyi={G\bibinitperiod},
+         given={Mark\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=IJ}{%
+         family={Isenberg},
+         familyi={I\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MJE}{%
+         family={Marsden},
+         familyi={M\bibinitperiod},
+         given={Jerrold\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Montgomery},
+         familyi={M\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GMJ+1}
+    \strng{fullhash}{GMJIJMJEMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{eprint}
+    \verb physics/9801019
+    \endverb
+    \field{title}{Momentum Maps and Classical Relativistic Fields. Part I: Covariant Field Theory}
+    \verb{url}
+    \verb https://arxiv.org/abs/physics/9801019
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{math-ph}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Leon2024a}{report}{}{}
+    \name{author}{2}{}{%
+      {{hash=dLM}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={León},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ILR}{%
+         family={Izquierdo-López},
+         familyi={I\bibinithyphendelim L\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Mathematics - Symplectic Geometry, 53D42, 70S20}
+    \strng{namehash}{LMdILR1}
+    \strng{fullhash}{LMdILR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    In this paper we study coisotropic reduction in multisymplectic geometry. On the one hand, we give an interpretation of Hamiltonian multivector fields as Lagrangian submanifolds and prove that \$k\$-coisotropic submanifolds induce a Lie subalgebra in the algebra of Hamiltonian \$(k-1)\$-forms, similar to how coisotropic submanifolds in symplectic geometry induce a Lie subalgebra under the Poisson bracket. On the other hand, we extend the classical result of symplectic geometry of projection of Lagrangian submanifolds in coisotropic reduction to bundles of forms, which naturally carry a multisymplectic structure.%
+    }
+    \verb{doi}
+    \verb 10.48550/arXiv.2405.12898
+    \endverb
+    \field{note}{arXiv:2405.12898 [math] type: article}
+    \field{title}{Coisotropic reduction in {Multisymplectic} {Geometry}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2405.12898
+    \endverb
+    \list{institution}{1}{%
+      {arXiv}%
+    }
+    \verb{file}
+    \verb arXiv Fulltext PDF:Leon2024 - Coisotropic Reduction in Multisymplecti
+    \verb c Geometry.pdf:PDF:https\://arxiv.org/pdf/2405.12898.pdf
+    \endverb
+    \field{type}{techreport}
+    \field{month}{06}
+    \field{year}{2024}
+    \field{urlday}{08}
+    \field{urlmonth}{07}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{MARSDEN2001253}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=MJE}{%
+         family={Marsden},
+         familyi={M\bibinitperiod},
+         given={Jerrold\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pekarsky},
+         familyi={P\bibinitperiod},
+         given={Sergey},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Shkoller},
+         familyi={S\bibinitperiod},
+         given={Steve},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={West},
+         familyi={W\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Variational methods, Multisymplectic geometry, Continuum mechanics}
+    \strng{namehash}{MJE+1}
+    \strng{fullhash}{MJEPSSSWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb https://doi.org/10.1016/S0393-0440(00)00066-8
+    \endverb
+    \field{issn}{0393-0440}
+    \field{number}{3}
+    \field{pages}{253\bibrangedash 284}
+    \field{title}{Variational methods, multisymplectic geometry and continuum mechanics}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0393044000000668
+    \endverb
+    \field{volume}{38}
+    \field{journaltitle}{Journal of Geometry and Physics}
+    \field{year}{2001}
+  \endentry
+\enddatalist
+\endinput

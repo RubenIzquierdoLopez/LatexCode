@@ -1,0 +1,665 @@
+% \bib, bibdiv, biblist are defined by the amsrefs package.
+\begin{bibdiv}
+\begin{biblist}
+
+\bib{abraham2008foundations}{book}{
+      author={Abraham, R.},
+      author={Marsden, J.E.},
+       title={Foundations of {M}echanics},
+   publisher={The Benjamin/Cummings Publishing Company, Reading, Massachusetts},
+        date={1978},
+      number={364},
+}
+
+\bib{acakpo2022stable}{article}{
+      author={Acakpo, B.},
+       title={Stable {H}amiltonian structure and basic cohomology},
+        date={2022},
+     journal={Annali di Matematica Pura ed Applicata (1923-)},
+      volume={201},
+      number={5},
+       pages={2465\ndash 2470},
+}
+
+\bib{albert1989theoreme}{article}{
+      author={Albert, C.},
+       title={Le th{\'e}oreme de r{\'e}duction de {M}arsden-{W}einstein en g{\'e}om{\'e}trie cosymplectique et de contact},
+        date={1989},
+     journal={Journal of Geometry and Physics},
+      volume={6},
+      number={4},
+       pages={627\ndash 649},
+}
+
+\bib{ArnoldThermo}{inproceedings}{
+      author={Arnold, V.I.},
+       title={Contact geometry: The geometrical method of {G}ibbs' thermodynamics},
+        date={1989},
+   booktitle={Gibbs symposium videorecordings (ru 115)},
+}
+
+\bib{arnold}{book}{
+      author={Arnold, V.I},
+       title={Mathematical {M}ethods of {C}lassical {M}echanics},
+   publisher={Grad. Texts in Math., 60, Springer-Verlag, New York, xvi+516 pp.},
+        date={1995},
+}
+
+\bib{binz}{book}{
+      author={Binz, E.},
+      author={Śniatycki, J.},
+      author={Fischer, H.},
+       title={Geometry of classical fields},
+   publisher={North-Holland Publishing Co.},
+        date={1988},
+      volume={154},
+}
+
+\bib{BOJOWALD_2003}{article}{
+      author={Bojowald, M.},
+      author={Strobl, T.},
+       title={Poisson geometry in constrained systems},
+        date={2003-09},
+        ISSN={1793-6659},
+     journal={Reviews in Mathematical Physics},
+      volume={15},
+      number={07},
+       pages={663–703},
+         url={http://dx.doi.org/10.1142/S0129055X0300176X},
+}
+
+\bib{bravetti0}{article}{
+      author={Bravetti, A.},
+       title={Contact {H}amiltonian dynamics: the concept and its use},
+        date={2017},
+     journal={Entropy},
+      volume={19},
+      number={10, 535},
+       pages={12 pp.},
+}
+
+\bib{bravetti2}{article}{
+      author={Bravetti, A.},
+       title={Contact geometry and thermodynamics},
+        date={2019},
+     journal={Int. J. Geom. Methods Mod. Phys.},
+      volume={16},
+       pages={51 pp.},
+}
+
+\bib{bravetti1}{article}{
+      author={Bravetti, A.},
+      author={Lopez-Monsalvo, C.~S.},
+      author={Nettel, F.},
+       title={Contact symmetries and {H}amiltonian thermodynamics},
+        date={2015},
+     journal={Ann. Physics},
+      volume={361},
+       pages={377–400},
+}
+
+\bib{cantrijn1992gradient}{article}{
+      author={Cantrijn, F.},
+      author={de~Le{\'o}n, M.},
+      author={Lacomba, E.A.},
+       title={Gradient vector fields on cosymplectic manifolds},
+        date={1992},
+     journal={Journal of Physics A: Mathematical and General},
+      volume={25},
+      number={1},
+       pages={175},
+}
+
+\bib{catalanes}{article}{
+      author={Cariñena, J.~F.},
+      author={Gràcia, X.},
+      author={Marmo, G.},
+      author={Martínez, E.},
+      author={Muñoz-Lecanda, M.~C.},
+      author={Román-Roy, N.},
+       title={Geometric {H}amilton-{J}acobi theory},
+        date={2006},
+     journal={Int. J. Geom. Methods Mod. Phys.},
+      volume={3},
+       pages={1417–1458},
+}
+
+\bib{de2022time}{article}{
+      author={de~Le{\'o}n, M.},
+      author={Gaset, J.},
+      author={Gr{\`a}cia, X.},
+      author={Mu{\~n}oz-Lecanda, M.C.},
+      author={Rivas, X.},
+       title={Time-dependent contact mechanics},
+        date={2022},
+     journal={Monatshefte f{\"u}r Mathematik},
+       pages={1\ndash 35},
+}
+
+\bib{canaria}{article}{
+      author={de~Le\'on, M.},
+      author={Lainz, M.},
+       title={A review on contact {H}amiltonian and {L}agrangian systems},
+        date={2019},
+     journal={Revista de la Real Academia de Ciencias Canaria},
+      volume={XXXI},
+       pages={1\ndash 46},
+}
+
+\bib{de2019contact}{article}{
+      author={de~Le{\'o}n, M.},
+      author={Lainz-Valc{\'a}zar, M.},
+       title={Contact {H}amiltonian {S}ystems},
+        date={2019},
+     journal={Journal of Mathematical Physics},
+      volume={60},
+      number={10},
+       pages={102902},
+}
+
+\bib{de2011methods}{book}{
+      author={de~Le{\'o}n, M.},
+      author={Rodrigues, P.R.},
+       title={Methods of {D}ifferential {G}eometry in {A}nalytical {M}echanics},
+   publisher={North-Holland, Amasterdam},
+        date={1989},
+}
+
+\bib{de1993cosymplectic}{article}{
+      author={de~Le{\'o}n, M.},
+      author={Saralegi, M.},
+       title={Cosymplectic reduction for singular momentum maps},
+        date={1993},
+     journal={Journal of Physics A: Mathematical and General},
+      volume={26},
+      number={19},
+       pages={5033},
+}
+
+\bib{vaquero}{article}{
+      author={de~León, M.},
+      author={de~Diego, D.~Martín},
+      author={Vaquero, M.},
+       title={{Hamilton-{J}acobi theory, symmetries and coisotropic reduction}},
+        date={2017},
+     journal={J. Math. Pures Appl.},
+      volume={107},
+      number={5},
+       pages={591\ndash 614},
+}
+
+\bib{de2022time2}{article}{
+      author={de~León, M.},
+      author={Lainz-Valcázar, M.},
+      author={López-Gordón, A.},
+      author={Rivas, X.},
+       title={{H}amilton-{J}acobi theory and integrability for autonomous and non-autonomous contact systems},
+        date={2023},
+     journal={J. Geom. Phys.},
+      volume={187},
+       pages={Paper No. 104787, 22 pp},
+}
+
+\bib{miguel}{article}{
+      author={de~León, M.},
+      author={Lainz-Valcázar, M.},
+      author={Muñoz-Lecanda, M.C.},
+       title={Optimal control, contact dynamics and {H}erglotz variational problem},
+        date={2023},
+     journal={Journal of Nonlinear Science},
+      volume={33 (1)},
+       pages={9, 46 pp.},
+}
+
+\bib{deleon2003tulczyjews}{article}{
+      author={de~León, M.},
+      author={Martin~de Diego, D.},
+      author={Santamaria-Merino, A.},
+       title={Tulczyjew's triples and {L}agrangian submanifolds in classical field theories},
+        date={2003},
+     journal={Willy Sarlet and Frans Cantrijn , Applied Differential Geometry and Mechanics. Gent, Academia Press},
+       pages={21\ndash 47},
+}
+
+\bib{silvia}{book}{
+      author={de~León, M.},
+      author={Salgado, M.},
+      author={Vilariño, S.},
+       title={Methods of differential geometry in classical field theories},
+   publisher={World Scientific Publishing Co. Pte. Ltd., Hackensack, NJ, 2016, xiii+207 pp.},
+        date={2014},
+}
+
+\bib{delucas2023cosymplectic}{misc}{
+      author={de~Lucas, J.},
+      author={Maskalaniec, A.},
+      author={Zawora, B.~M.},
+       title={Cosymplectic geometry, reductions, and energy-momentum methods with applications},
+        date={2023},
+}
+
+\bib{Dirac_1950}{article}{
+      author={Dirac, P.A.M.},
+       title={Generalized {H}amiltonian dynamics},
+        date={1950},
+     journal={Canadian Journal of Mathematics},
+      volume={2},
+       pages={129–148},
+}
+
+\bib{ogulin}{article}{
+      author={Esen, O},
+      author={de~León, M.},
+      author={Lainz-Valcázar, M.},
+      author={Sardón, C.},
+      author={Zając, M.},
+       title={Reviewing the geometric {H}amilton–{J}acobi theory concerning {J}acobi and {L}eibniz identities},
+        date={2022},
+     journal={Journal of Physics A: Mathematical and Theoretical, 55 (40), 403001},
+}
+
+\bib{ogul}{article}{
+      author={Esen, O.},
+      author={Gümral, H.},
+       title={Tulczyjew's triplet for {L}ie groups {I}: Trivializations and reductions},
+        date={2014},
+     journal={J. Lie Theory},
+      volume={24},
+      number={2},
+       pages={1115\ndash 1160},
+}
+
+\bib{ogul2}{article}{
+      author={Esen, O.},
+      author={Gümral, H.},
+       title={Tulczyjew's triplet for {L}ie groups ii: Dynamics},
+        date={2017},
+     journal={J. Lie Theory 27, no. 2, 329–356},
+}
+
+\bib{ogul2021}{article}{
+      author={Esen, O.},
+      author={Lainz-Valcázar, M.},
+      author={de~León, M.},
+      author={Marrero, J.C.},
+       title={Contact dynamics: {L}egendrian and {L}agrangian submanifolds},
+        date={2021},
+     journal={Mathematics},
+      volume={9},
+      number={21},
+       pages={2704, 41pp},
+}
+
+\bib{garcia2022momentum}{article}{
+      author={Garc{\'\i}a-Mauri{\~n}o, J.M.},
+       title={{Momentum mapping and reduction in contact {H}amiltonian systems}},
+        date={2022},
+     journal={arXiv preprint arXiv:2208.10924},
+}
+
+\bib{godbillon1969geometrie}{book}{
+      author={Godbillon, C.},
+       title={G{\'e}om{\'e}trie diff{\'e}rentielle et m{\'e}canique analytique},
+   publisher={Editions Hermann, Paris},
+        date={1969},
+}
+
+\bib{got}{article}{
+      author={Gotay, M.J.},
+       title={On coisotropic imbeddings of presymplectic manifolds},
+        date={1982},
+     journal={Proc. Amer. Math. Soc.},
+      volume={84},
+      number={1},
+       pages={111\ndash 114},
+}
+
+\bib{GotaySingularLagrangians1}{article}{
+      author={Gotay, M.J.},
+      author={Nester, J.M.},
+       title={Presymplectic {L}agrangian systems. {I}. {T}he constraint algorithm and the equivalence theorem},
+        date={1979},
+        ISSN={0246-0211},
+     journal={Ann. Inst. H. Poincar\'{e} Sect. A (N.S.)},
+      volume={30},
+      number={2},
+       pages={129\ndash 142},
+      review={\MR{535369}},
+}
+
+\bib{GotaySinguarLagrangians2}{article}{
+      author={Gotay, M.J.},
+      author={Nester, J.M.},
+       title={Presymplectic {L}agrangian systems. {II}. {T}he second-order equation problem},
+        date={1980},
+        ISSN={0246-0211},
+     journal={Ann. Inst. H. Poincar\'{e} Sect. A (N.S.)},
+      volume={32},
+      number={1},
+       pages={1\ndash 13},
+      review={\MR{574809}},
+}
+
+\bib{grabowska}{article}{
+      author={Grabowska, K.},
+       title={A {T}ulczyjew triple for classical fields},
+        date={2012},
+     journal={Journal of Physics A: Mathematical and Theoretical},
+      volume={45},
+      number={14},
+       pages={145207},
+         url={https://dx.doi.org/10.1088/1751-8113/45/14/145207},
+}
+
+\bib{jcelisa}{article}{
+      author={Guzmán, E.},
+      author={Marrero, J.C.},
+       title={Time-dependent mechanics and {L}agrangian submanifolds of presymplectic and {P}oisson manifolds},
+        date={2010},
+     journal={J. Phys. A: Math. Theor.},
+      volume={43},
+      number={50},
+       pages={505201 (23pp)},
+}
+
+\bib{beppe}{article}{
+      author={Ibort, A.},
+      author={de~León, M.},
+      author={Marmo, G.},
+       title={Reduction of {J}acobi manifolds},
+        date={1997},
+     journal={J. Phys. A},
+      volume={30},
+      number={8},
+       pages={2783–2798},
+}
+
+\bib{regular}{article}{
+      author={Ibort, A.},
+      author={Marín-Solano, J.},
+       title={Coisotropic regularization of singular lagrangians},
+        date={1995},
+     journal={J. Math. Phys.},
+      volume={36},
+      number={10},
+       pages={5522–5539},
+}
+
+\bib{raul}{article}{
+      author={Ibáñez, R.},
+      author={de~León, M.},
+      author={Marrero, J.C.},
+      author={Martín~de Diego, D.},
+       title={Co-isotropic and {L}egendre-{L}agrangian submanifolds and conformal {J}acobi morphisms},
+        date={1997},
+     journal={J. Phys. A},
+      volume={30},
+      number={15},
+       pages={5427–5444},
+}
+
+\bib{kostant}{inproceedings}{
+      author={Kostant, B.},
+       title={Quantization and unitary representations},
+        date={1970},
+   booktitle={Lectures in modern analysis and applications iii},
+      editor={Taam, C.~T.},
+   publisher={Springer Berlin Heidelberg},
+     address={Berlin, Heidelberg},
+       pages={87\ndash 208},
+}
+
+\bib{Lainztesis}{thesis}{
+      author={Lainz-Valc{\'a}zar, M.},
+       title={Contact {H}amiltonian {S}ystems},
+        type={Ph.D. Thesis},
+        date={2022},
+}
+
+\bib{le2019deformations}{article}{
+      author={L{\^e}, H.V.},
+      author={Oh, Y.G.},
+      author={Tortorella, A.G.},
+      author={Vitagliano, L.},
+       title={Deformations of coisotropic submanifolds in {J}acobi manifolds},
+        date={2019},
+      eprint={1410.8446},
+}
+
+\bib{libermann2012symplectic}{book}{
+      author={Libermann, P.},
+      author={Marle, C.M.},
+       title={Symplectic {G}eometry and {A}nalytical {M}echanics},
+   publisher={Springer Science \& Business Media},
+        date={2012},
+      volume={35},
+}
+
+\bib{marsden1974reduction}{article}{
+      author={Marsden, J.},
+      author={Weinstein, A},
+       title={Reduction of symplectic manifolds with symmetries},
+        date={1974},
+     journal={Rep. Math. Phys. 5},
+      number={1},
+       pages={121\ndash 130},
+}
+
+\bib{marsdenbook}{book}{
+      author={Marsden, J.E.},
+       title={Lectures on {M}echanics},
+   publisher={London Math. Soc. Lecture Note Ser., Cambridge University Press, Cambridge},
+        date={1992},
+      volume={174},
+}
+
+\bib{marsden1990reduction}{book}{
+      author={Marsden, J.E.},
+      author={Montgomery},
+      author={R., T.S., Ratiu},
+       title={Reduction, symmetry, and phases in mechanics},
+   publisher={American Mathematical Soc.},
+        date={1990},
+      volume={436},
+}
+
+\bib{meyer}{incollection}{
+      author={Meyer, K.~R.},
+       title={Symmetries and integrals in mechanics},
+        date={1973},
+   booktitle={Dynamical systems ({P}roc. {S}ympos., {U}niv. {B}ahia, {S}alvador, 1971)},
+   publisher={Academic Press, New York-London},
+       pages={259\ndash 272},
+      review={\MR{331427}},
+}
+
+\bib{MRUGALAcontinuouscontact}{article}{
+      author={Mrugala, R.},
+       title={Continuous contact transformations in thermodynamics},
+        date={1993},
+        ISSN={0034-4877},
+     journal={Reports on Mathematical Physics},
+      volume={33},
+      number={1},
+       pages={149\ndash 154},
+         url={https://www.sciencedirect.com/science/article/pii/003448779390050O},
+}
+
+\bib{MRUGALAcontactstrcuture}{article}{
+      author={Mrugala, R.},
+      author={Nulton, J.D.},
+      author={{Christian Schön}, J.},
+      author={Salamon, P.},
+       title={Contact structure in thermodynamic theory},
+        date={1991},
+        ISSN={0034-4877},
+     journal={Reports on Mathematical Physics},
+      volume={29},
+      number={1},
+       pages={109\ndash 121},
+         url={https://www.sciencedirect.com/science/article/pii/003448779190017H},
+}
+
+\bib{roels}{article}{
+      author={Roels, J.},
+      author={Weinstein, A.},
+       title={Functions whose {P}oisson brackets are constants},
+        date={1971},
+     journal={J. Mathematical Phys.},
+      volume={12},
+       pages={1482–1486},
+}
+
+\bib{sanzserna}{book}{
+      author={Sanz-Serna, J.M.},
+      author={Calvo, M.P.},
+       title={Numerical {H}amiltonian problems},
+   publisher={Chapman \& Hall, London},
+        date={1994},
+      volume={7},
+}
+
+\bib{simoes2020contact}{article}{
+      author={Simoes, A.A.},
+      author={de~León, M.},
+      author={Valcázar, M.~Lainz},
+      author={de~Diego, D.~Martín},
+       title={Contact geometry for simple thermodynamical systems with friction},
+        date={2020},
+     journal={Proc. A. 476, no. 2241, 20200244, 16 pp.},
+}
+
+\bib{GeometrySomeThermo}{inproceedings}{
+      author={Simoes, A.A.},
+      author={Mar t{\'i'}~de Diego, D.},
+      author={Laínz, M.},
+      author={de~Le{\'o}n, M.},
+       title={The geometry of some thermodynamic systems},
+        date={2021},
+   booktitle={Geometric structures of statistical physics, information geometry, and learning},
+      editor={Barbaresco, Fr{\'e}d{\'e}ric},
+      editor={Nielsen, Frank},
+   publisher={Springer International Publishing},
+     address={Cham},
+       pages={247\ndash 275},
+}
+
+\bib{simoes2021ThermodynamicSystems}{incollection}{
+      author={Simoes, A.A.},
+      author={Martín~de Diego, D.},
+      author={Laínz-Valc{\'a}zar, M.},
+      author={de~Le{\'o}n, M.},
+       title={{Geometric {S}tructures of {S}tatistical {P}hysics, {I}nformation {G}eometry, and {L}earning, Springer Proc. Math. Stat., 361}},
+        date={2021},
+      editor={Barbaresco, F.},
+      editor={Nielsen, F.},
+   publisher={Springer, Cham},
+       pages={247\ndash 275},
+}
+
+\bib{Sniatycki1983ReductionAQ}{article}{
+      author={Sniatycki, J.},
+      author={Weinstein, A.},
+       title={Reduction and quantization for singular momentum mappings},
+        date={1983},
+     journal={Letters in Mathematical Physics},
+      volume={7},
+       pages={155\ndash 161},
+         url={https://api.semanticscholar.org/CorpusID:120255451},
+}
+
+\bib{SouriauDynamical}{book}{
+      author={Souriau, J.M.},
+       title={Structure of dynamical systems},
+      series={Progress in Mathematics},
+   publisher={Birkh\"{a}user Boston, Inc., Boston, MA},
+        date={1997},
+      volume={149},
+        ISBN={0-8176-3695-1},
+         url={https://doi.org/10.1007/978-1-4612-0281-3},
+        note={A symplectic view of physics, Translated from the French by C. H. Cushman-de Vries, Translation edited and with a preface by R. H. Cushman and G. M. Tuynman},
+      review={\MR{1461545}},
+}
+
+\bib{stefan}{article}{
+      author={Stefan, P.},
+       title={Accessible {S}ets, {O}rbits, and {F}oliations with {S}ingularities},
+        date={1974},
+     journal={Proc. London Math. Soc.},
+      volume={s3-29},
+       pages={699\ndash 713},
+}
+
+\bib{sussmann1973orbits}{article}{
+      author={Sussmann, H.J.},
+       title={Orbits of families of vector fields and integrability of distributions},
+        date={1973},
+     journal={Transactions of the American Mathematical Society},
+      volume={180},
+       pages={171\ndash 188},
+}
+
+\bib{Tortorella2017}{article}{
+      author={Tortorella, A.G.},
+       title={Rigidity of integral coisotropic submanifolds of contact manifolds},
+        date={2017sep},
+     journal={Letters in Mathematical Physics},
+      volume={108},
+      number={3},
+       pages={883\ndash 896},
+}
+
+\bib{tulczyjew1976hamiltonienne}{article}{
+      author={Tulczyjew, W.M.},
+       title={{Les sous-variet{\'e}s {L}agrangiennes et la dynamique {H}amiltonienne}},
+        date={1976},
+     journal={C. R. Acad. Sci. Paris S{\`e}r. A-B},
+      volume={283},
+       pages={A15\ndash A18},
+}
+
+\bib{tulczyjew1976lagrangienne}{article}{
+      author={Tulczyjew, W.M.},
+       title={{Les sous-variet{\'e}s {L}agrangiennes et la dynamique {L}agrangienne}},
+        date={1976},
+     journal={C. R. Acad. Sci. Paris S{\`e}r. A-B},
+      volume={283},
+       pages={A65\ndash A78},
+}
+
+\bib{vaisman2012lectures}{book}{
+      author={Vaisman, I.},
+       title={{Lectures on the geometry of {P}oisson manifolds}},
+   publisher={Birkh{\"a}user},
+        date={2012},
+      volume={118},
+}
+
+\bib{weinsteincreed}{article}{
+      author={Weinstein, A.},
+       title={Symplectic manifolds and their {L}agrangian submanifolds},
+        date={1971},
+     journal={Advances in Math.},
+      volume={6},
+       pages={329–346},
+}
+
+\bib{weinstein1977lectures}{book}{
+      author={Weinstein, A.},
+       title={Lectures on {S}ymplectic {M}anifolds},
+   publisher={American Mathematical Soc.},
+        date={1977},
+      number={29},
+}
+
+\bib{willett}{article}{
+      author={Willett, C.},
+       title={Contact reduction},
+        date={2002},
+     journal={Trans. Am. Math. Soc.},
+      volume={354},
+       pages={4245\ndash 5260},
+}
+
+\end{biblist}
+\end{bibdiv}

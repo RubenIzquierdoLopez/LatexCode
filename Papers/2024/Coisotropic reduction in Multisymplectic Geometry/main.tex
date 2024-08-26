@@ -1,0 +1,172 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[a4paper, total={6.5in, 9in}]{geometry} % Page dimensions
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage[sortcites = true, backend=biber, style=numeric, url = false]{biblatex} % for bibliography
+\addbibresource{refs.bib}
+\usepackage[shortlabels]{enumitem} % For stylized enumerate
+\usepackage{hyperref}
+%Bibliography style https://www.overleaf.com/learn/latex/Bibliography_management_with_natbib
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\usepackage[capitalize]{cleveref} % Cleveref is used to automatically determine the reference type
+%[capitalize] makes "theorem" into "Theorem", and so on.
+\usepackage{xcolor} % xcolor is used to change font color
+\usepackage{quiver} % quiver for commutative diagrams
+\usepackage{orcidlink}
+\usepackage{authblk} % For affiliations
+\usepackage{physics} % For derivative notation (and more)
+
+%https://tex.stackexchange.com/questions/558986/breaking-long-urls-on-arxiv-org
+
+\renewcommand\Authfont{\small \large}
+\renewcommand\Affilfont{\slshape\small}
+
+
+%-------------------------------------------
+% Commands particular to paper
+%-------------------------------------------
+\usepackage{commands}
+
+%-------------------------------------------
+% Environments
+%-------------------------------------------
+\newenvironment{keywords}
+{
+\begin{center}
+\textbf{Keywords}\\
+\vspace{0.17cm}
+\begin{minipage}{14.5cm}}
+{\footnotesize
+\end{minipage}
+\end{center}}
+
+\newenvironment{Abstract}
+{
+\begin{center}
+\textbf{Abstract}\\
+\vspace{0.25cm}
+\begin{minipage}{14.5cm}}
+{\footnotesize
+\end{minipage}
+\end{center}}
+
+%-------------------------------------------
+% General commands
+%-------------------------------------------
+\newcommand{\ran}{\operatorname{rank}} % range
+\newcommand{\codim}{\operatorname{codim}} % codimension
+\newcommand{\mail}[1]{\small\href{mailto:#1}{#1}}
+
+%-------------------------------------------
+% Theorems
+%-------------------------------------------
+\newtheorem{theorem}{Theorem}[subsection]
+\newtheorem{proposition}{Proposition}[subsection]
+\newtheorem{lemma}{Lemma}[subsection]
+
+\theoremstyle{definition}
+\newtheorem{example}{Example}[subsection]
+\newtheorem{Def}{Definition}[subsection]
+\newtheorem{remark}{Remark}[subsection]
+\newtheorem{obs}{Observation}[subsection]
+
+\begin{document}
+%-------------------------------------------
+% Title, authors and affiliations
+%-------------------------------------------
+\title{\huge Coisotropic reduction in Multisymplectic Geometry}
+
+% Author 1
+\author{Manuel de León \orcidlink{0000-0002-8028-2348} \\ \mail{mdeleon@icmat.es}}
+\affil{Instituto de Ciencias Matemáticas, Campus Cantoblanco, Consejo Superior de Investigaciones Científicas, C/Nicolás Cabrera, 13–15, Madrid 28049, Spain}
+\affil{Real Academia de Ciencias Exactas, Físicas y Naturales de España, C/Valverde, 22, Madrid 28004, Spain}
+
+% Author 2
+\author{Rubén Izquierdo-López \orcidlink{0009-0007-8747-344X} \\ \mail{rubizqui@ucm.es}}
+\affil{Instituto de Ciencias Matemáticas, Campus Cantoblanco, Consejo Superior de Investigaciones Científicas, C/Nicolás Cabrera, 13–15, Madrid 28049, Spain}
+
+\date{\today}
+
+\maketitle
+
+%-------------------------------------------
+% Abstract
+%-------------------------------------------
+\begin{Abstract}
+In this paper we study coisotropic reduction in multisymplectic geometry. On the one hand, we give an interpretation of Hamiltonian multivector fields as Lagrangian submanifolds and prove that $k$-coisotropic submanifolds induce a Lie subalgebra in the algebra of Hamiltonian $(k-1)$-forms, similar to how coisotropic submanifolds in symplectic geometry induce a Lie subalgebra under the Poisson bracket. On the other hand, we extend the classical result of symplectic geometry of projection of Lagrangian submanifolds in coisotropic reduction to bundles of forms, which naturally carry a multisymplectic structure.
+\end{Abstract}
+
+%-------------------------------------------
+% Keywords
+%-------------------------------------------
+\begin{keywords}
+Multisymplectic manifolds, coisotropic submanifolds, Lagrangian submanifolds, coisotropic reduction, graded Lie algebras.
+\end{keywords}
+
+
+%-------------------------------------------
+% Chapter_1: Table of contents
+%-------------------------------------------
+\tableofcontents
+
+%-------------------------------------------
+% Chapter_1: Introduction to the results
+%-------------------------------------------
+\section{Introduction}
+\input{Chapter_1_Introduction/Introduction}
+
+%-------------------------------------------
+% Chapter_2: In this Chapter_we introduce the reader to multisymplectic manifolds
+%-------------------------------------------
+\section{Multisymplectic geometry}\label{section:MultisymplecticGeometry}
+The main concepts and results of multisymplectic vector spaces and manifolds are taken from \cite{Ibort1999OnTG,HamiltonianStructuresIbort,deleon2003tulczyjews}. As mentioned, we chose a more general approach which includes possibly degenerate forms. Most of the proofs are included for the sake of completeness.
+\subsection{Multisymplectic vector spaces}\label{Subsection:MultisymplecticVectorSpapces}
+\input{Chapter_2_Multisymplectic_Manifolds/2.1MultisymplecticVectorSpaces}
+\subsection{Multisymplectic manifolds}
+For an introduction to the  study of general (non-degenerate) multisymplectic manifolds motivating their study from Classical Field Theory see \cite{Ibort1999OnTG,Invitation2019}. Also, for an in-depth treatment of the multisymplectic formulation of Classical Field Theory, see \cite{ClassicalFieldsSniaiycki,silvia}.
+\input{Chapter_2_Multisymplectic_Manifolds/2.2MultisymplecticManifolds}
+
+
+%-------------------------------------------
+% Chapter_3: In this chater we give an interpretation of Hamiltonian multivector fields and forms as 
+% Lagrangian subamnifolds of the corresponding vector bundle
+%-------------------------------------------
+\section{Hamiltonian structures on multisymplectic manifolds}\label{Section:Hamiltonianstructures}
+\subsection{Hamiltonian multivector fields and forms. Brackets}
+\input{Chapter_3_Hamiltonian_multivector_fields_and_forms/3.1HamiltonianMultivector}
+\subsection{Hamiltonian multivector fields as Lagrangian submanifolds}\label{Subsection:HamiltonianAsLagrangian}
+\input{Chapter_3_Hamiltonian_multivector_fields_and_forms/3.2HamiltonianMultivectorFieldsLagrangian}
+\subsection{Complete lift of forms to multivector bundles}\label{Subsection:Completelift}
+\input{Chapter_3_Hamiltonian_multivector_fields_and_forms/3.3CompleteLift}
+
+%-------------------------------------------
+% Chapter_4: In this Chapter_we study coisotropic submanifolds in multisymplectic geometry
+%-------------------------------------------
+\section{Coisotropic submanifolds}\label{section:CoisotropicSubmanifolds}
+\subsection{Local form of coisotropic submanifolds}\label{LocalFormSection}
+\input{Chapter_4_Coisotropic_submanifolds/4.1Localforms}
+\subsection{Coisotropic reduction}
+\input{Chapter_4_Coisotropic_submanifolds/4.2CoisotropicReduction}
+
+%-------------------------------------------
+% Chapter_5: Conclusions+ Ackknowledgements
+%-------------------------------------------
+\section{Conclusions and further work}\label{conclusions}
+\input{Chapter_5_Conclusions/conclusions}
+
+%-------------------------------------------
+%Bibliography
+%-------------------------------------------
+\phantomsection
+\addcontentsline{toc}{section}{References}
+\printbibliography
+\end{document}

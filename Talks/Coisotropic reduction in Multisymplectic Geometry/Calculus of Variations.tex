@@ -1,0 +1,26 @@
+\begin{frame}{The variational problem}
+Given a fibered manifold $$Y\xrightarrow{\pi} X,$$ we want to find sections $\phi: X \rightarrow Y$ that extremize certain functional (the action) $$S[\phi] := \int_X \mathcal{L}(\phi),$$ where $\mathcal{L}(\phi)$ (the \alert{Lagrangian density}) is an $n$-form on $X$. 
+
+For first order field theories, we can interpret
+\begin{align*}
+    &\text{Lagrangian dentisy}  \sim \mathcal{L}: J^1 \pi \rightarrow \bigwedge^n X;\\
+    &\text{Action} \sim S[\phi] = \int_X \mathcal{L}\circ j^1 \phi.
+\end{align*}
+\end{frame}
+
+\begin{frame}{Euler-Lagrange equations}
+Stationary sections will satisfy $$\dv{t} \bigg |_{t = 0} S[\phi_t] = 0,$$ for every possible variation $\phi_t$, $\phi_0 = \phi.$ The Euler-Lagrange equations for $\phi$ are:
+\begin{align*}
+    &\alert{\text{Locally}},\,\,\,  \pdv{L}{y^i} = \dv{x^\mu} \left( \pdv{L}{z^i_\mu}\right)\\
+    &\alert{\text{Intrinsically}},\,\,\, (j^1\phi)^\ast  \iota_\xi\Omega_{\mathcal{L}} = 0, \forall \xi \in \mathfrak{X}(J^1 Y),
+\end{align*}
+where $\Omega_{\mathcal{L}}$ is the \alert{multisymplectic form} of the theory, a closed $(n+1)$-form $$\Omega_{\mathcal{L}} = d \left( \pdv{L}{z^i_\mu}\right) dy^i \wedge d^{n-1}x_\mu - \left( \pdv{L}{z^i_\mu}z^i_\mu - L \right) d^n x$$
+\end{frame}
+
+\begin{frame}{The importance of multisymplectic geometry}
+    \begin{center}
+        {\huge Symplectic Geometry $\sim$ Classical Mechanics}\\
+        \vspace{1.5cm}
+        {\huge Multisymplectic Geometry $\sim$ Classical Field Theory}
+    \end{center}
+\end{frame}

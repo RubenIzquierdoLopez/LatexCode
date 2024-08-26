@@ -1,0 +1,34 @@
+\begin{frame}{Hamiltonian multivector fields and forms}
+\begin{definition} Let $(M, \omega)$ be a multisymplectic manifold of order $k.$ A multivector field $$U: M \rightarrow \bigvee_q M$$ is called \alert{Hamiltonian} if there exists a $(k-q)$-form $$\alpha: M \rightarrow \bigwedge^{k-q} M$$ such that $$\iota_U \omega = d \alpha.$$ We refer to $\alpha$ as the \alert{Hamiltonian form.} When $\iota_U \omega$ is closed, we call $U$ \alert{locally Hamiltonian}.
+\end{definition}
+\end{frame}
+
+\begin{frame}{Bracket of Hamiltonian forms}
+We will denote by the quotient of all Hamiltonian forms $(\Omega_H(M))$ by the space of all closed forms ($Z(M)$) $$\widehat{\Omega}_H(M) := \Omega_H(M)/Z(M).$$
+\pause
+Defining $$\deg [\alpha] := k - 1 - (\text{order of }\alpha),$$ and $$\{[\alpha], [\beta]\}^\bullet = -(1)^{\deg \alpha +1 }[\iota_{U \wedge V} \omega],$$ where $$\iota_ U \omega = d \alpha, \iota_V \omega = d \beta,$$
+we have 
+\pause
+\begin{theorem}
+     For every multisymplectic manifold, $(\widehat{\Omega}_H(M), \{\cdot, \cdot\}^\bullet)$ is a graded Lie algebra. 
+\end{theorem}
+In particular,
+\begin{proposition} $(\widehat{\Omega}^{k-1}_H(M), \{\cdot, \cdot\}^\bullet)$ is a Lie algebra.
+\end{proposition}
+\end{frame}
+
+\begin{frame}{Bracket of Hamiltonian forms}
+    Let us restrict our attention to \alert{currents} ($(k-1)$-forms). Defining (without quatienting) $$\{\alpha, \beta\} = \iota_{U \wedge V}\omega,$$ $\{ \cdot , \cdot \}$ does not satisfy the Jacobi identity. \pause 
+   Nevertheless, $$\{\alpha, \{\beta, \gamma\}\} + \text{cycl.} = d \iota_{U \wedge V \wedge W} \omega.$$
+ This gives an $L_\infty-$algebra structure on $$\Omega^0(M) \xrightarrow{d} \cdots \xrightarrow{d} \Omega^{k-2}(M) \xrightarrow{d} \Omega^{k-1}_H(M).$$
+\end{frame}
+
+
+\begin{frame}{Dynamics = Lagrangian submanifolds}
+\begin{theorem}[\cite{deleón2024coisotropic}] A mutivector field $U: M \rightarrow \bigvee_q M$ is locally Hamiltonian if and only if it defines a $(k+1-q)-$Lagrangian submanifold.
+\end{theorem}
+\pause
+\begin{proof}
+Since $U(M)$ defines a $(k+1-q)-$isotropic submanifold, it follows from the decomposition $$T \bigvee_q M \bigg |_{U(M)} = T U(M)  \oplus \widetilde W^{k+1-q},$$ where $\widetilde{W}^{k+1-q}$ is $1$-isotropic.
+\end{proof}
+\end{frame}

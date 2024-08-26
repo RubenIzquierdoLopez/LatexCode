@@ -1,0 +1,45 @@
+\documentclass[10 pt,
+handout
+]{beamer}
+\setbeamertemplate{subsection in toc}[subsections numbered]
+\usetheme{metropolis}
+\usepackage{amsthm}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} %For \pounds
+\usepackage[sortcites = true, backend=bibtex, style=numeric, url = false]{biblatex} % for bibliography
+\usepackage{physics}
+\addbibresource{refs.bib}
+
+\theoremstyle{plain} % insert bellow all blocks you want in italic
+% to number according to section
+\newtheorem{proposition}{Proposition}[section]
+\theoremstyle{definition} % insert bellow all blocks you want in normal text
+\newtheorem{Def}{Definition}[section] % to number according to section
+\newtheorem*{idea}{Proof idea} % no numbered block
+
+\title{The Multisymplectic Framework of Field Theories}
+\subtitle{Workshop on Geometric Aspects of Material Modelling}
+\author{Rubén Izquierdo-López}
+\institute{ICMAT-UCM}
+\date{23 August, 2024}
+
+\begin{document}
+    \setbeamercolor{background canvas}{bg=white}
+    \begin{frame}[plain]
+        \titlepage
+    \end{frame}
+    
+    \begin{frame}
+        \frametitle{Structure of the talk}
+       \tableofcontents
+    \end{frame}
+    
+    %Section: The geometry of Calculus of variations
+    \input{Sections/Geometry_of_Calculus_of_variations.tex}
+
+    %Section: The geometry of Calculus of variations
+    \input{Sections/Multisymplectic_Geometry.tex}
+
+    %Section: Examples
+    \input{Sections/Examples.tex}
+\end{document}

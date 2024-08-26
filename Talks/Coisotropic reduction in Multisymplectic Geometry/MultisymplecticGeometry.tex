@@ -1,0 +1,41 @@
+\begin{frame}{Multisymplectic Manifolds}
+    \begin{definition} A \alert{multisymplectic manifold} of order $k$ is a pair $(M, \omega)$, where $M$ is a smooth manifold, and $\omega$ is a closed $(k+1)-$form.
+    \end{definition}
+    \alert{No non-degeneracy required.\\
+    }
+    \pause
+    Now we have a collection of maps $$\bigvee_ q M \xrightarrow{\flat_q} \bigwedge^{k+1-q} M; \,\, U \mapsto \iota_U \omega$$ which endow $\bigvee_q M$ with a multisymplectic structure $$\widetilde \Omega^q_M := \flat_q^\ast  \Omega^{k+1-q}_M,$$ where $\Omega^{k+1-q}_M$ is the canonical multisymplectic structure on $\bigwedge^{k+1-q} M$.
+\end{frame}
+
+\begin{frame}{Multisymplectic manifolds}
+    \begin{definition} For $W \subseteq T_x M,$ and $1 \leq j \leq k$ define the \alert{multisymplectic orthogonal} as $$W^{\perp, j}:= \{v \in T_x M: \,\, \iota_{v \wedge w_1 \wedge \cdots w_j} \omega = 0, \,\, \forall w_1, \dots, w_j \in W\}.$$
+    \end{definition}
+    \pause
+    
+    \begin{Def} We will say that a subspace $W \subseteq T_x M$ is 
+    \begin{itemize}
+    \item \alert{j-isotropic}, if $$W  \subseteq W^{\perp, j};$$
+        \item \alert{$j$-coisotropic}, if $$W^{\perp,j} \subseteq W + \ker \flat_1;$$
+        \item \alert{$j$-Lagrangian}, if $$W^{\perp, j} = W + \ker \flat_1.$$
+    \end{itemize}
+    \end{Def}
+     These definitions extend in the natural way to submanifolds.
+\end{frame}
+\begin{frame}{Form bundle}
+    Fix a manifold $L$ and define $$M := \bigwedge^k L.$$ If we define the \alert{tautological $k$-form} $$\Theta_L |_{\alpha} (v_1, \dots, v_k) = \alpha(\pi_\ast v_1, \dots, \pi_\ast v_k),$$ then $$\Omega_L := d \Theta_L$$ defines a canonical non-degenerate multisymplectic structure on $\bigwedge^k L.$ \pause  In canonical coordinates $(x,p_{i_1, \dots, i_k})$ representing the form $$\alpha = p_{i_1, \dots, i_k} \wedge dx^{i_1} \wedge \cdots \wedge d x^{i_k},$$ \pause the canonical multisymplectic form reads $$\Omega_L = dp_{i_1, \dots, i_k} \wedge dx^{i_1} \wedge \cdots \wedge d x^{i_k}.$$
+\end{frame}
+
+\begin{frame}{An useful lemma}
+\begin{lemma} Let $(V, \omega)$ be a $k$-multisymplectic manifold and $U, W$ be $k$-isotropic and $1$-isotropic subspaces respectivley such that $$V = U \oplus W.$$ Then, $U$ is $k$-Lagrangian.
+\end{lemma}
+\begin{proof} Let $u + w \in U^{\perp, k},$ for $u \in U$, $w \in W$. Then, for all $u_1, \dots, u_k \in U$ we have $$\omega(u + w, u_1, \dots, u_k) = \omega(w, u_1, \dots, u_k) = 0.$$ We claim that $w \in \ker \flat_1.$ \pause Indeed, given $u_i + w_i \in V$, $$\omega(w, v_1, \dots, v_k) = \omega(w, u_1 + w_1, \dots, u_k +w_k) = \omega(w, u_1, \dots, u_k) = 0,$$ where in the last equality we used that $W$ is $1$-isotropic. Therefore, if $u + w \in U^{\perp, k},$ we have $$u + w \in U +\ker \flat_1,$$ that is $$U^{\perp, k} \subseteq U + \ker \flat_1,$$ proving that $U$ is $k$-coisotropic and, therefore, $k$-Lagrangian
+\end{proof}
+\end{frame}
+
+\begin{frame}
+\begin{proposition}
+        A differential $k$-form $$\alpha: L \rightarrow \bigwedge^k L$$ defines a $k$-Lagrangian submanifold if and only if it is closed.
+\end{proposition}
+\begin{proof} Since the vertical distribution of $L \rightarrow \bigwedge^k L$, $W$, defines a $1$-Lagrangian distribution, and $\alpha(L)$ is always complementary to $W$, it is enough to show that $\alpha$ is $k$-isotropic. We have $$\alpha^\ast \Omega_L = d \alpha,$$ which ends the proof.
+\end{proof}
+\end{frame}

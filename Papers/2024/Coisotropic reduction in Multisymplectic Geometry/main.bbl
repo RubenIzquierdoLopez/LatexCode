@@ -1,0 +1,1337 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global/global}
+  \entry{abraham2008foundations}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=AR}{%
+         family={Abraham},
+         familyi={A\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Marsden},
+         familyi={M\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Mathematical Society}%
+    }
+    \strng{namehash}{ARMJ1}
+    \strng{fullhash}{ARMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1090/chel/364
+    \endverb
+    \field{isbn}{9781470411343}
+    \field{title}{Foundations of Mechanics}
+    \verb{url}
+    \verb http://dx.doi.org/10.1090/chel/364
+    \endverb
+    \field{month}{05}
+    \field{year}{2008}
+  \endentry
+
+  \entry{ClassicalFieldsSniaiycki}{book}{}{}
+    \name{author}{3}{}{%
+      {{hash=BE}{%
+         family={Binz},
+         familyi={B\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=�J}{%
+         family={Śniatycki},
+         familyi={�\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=FH}{%
+         family={Fischer},
+         familyi={F\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{BE�JFH1}
+    \strng{fullhash}{BE�JFH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/s0304-0208(08)x7101-4
+    \endverb
+    \field{isbn}{9780444705440}
+    \field{issn}{0304-0208}
+    \field{title}{Geometry of Classical Fields}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/s0304-0208(08)x7101-4
+    \endverb
+    \field{journaltitle}{North-Holland Mathematics Studies}
+    \field{year}{1988}
+  \endentry
+
+  \entry{dLR}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=dLM}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Le\'on},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Rodrigues},
+         familyi={R\bibinitperiod},
+         given={P.R.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {North-Holland, Amsterdam}%
+    }
+    \strng{namehash}{LMdRP1}
+    \strng{fullhash}{LMdRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Methods of differential geometry in analytical mechanics}
+    \field{year}{1989}
+  \endentry
+
+  \entry{Ibort1999OnTG}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=CF}{%
+         family={Cantrijn},
+         familyi={C\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={Ibort},
+         familyi={I\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DLM}{%
+         family={De\bibnamedelima León},
+         familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CFIADLM1}
+    \strng{fullhash}{CFIADLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1017/S1446788700036636
+    \endverb
+    \field{number}{3}
+    \field{pages}{303–330}
+    \field{title}{On the geometry of multisymplectic manifolds}
+    \field{volume}{66}
+    \field{journaltitle}{Journal of the Australian Mathematical Society. Series A. Pure Mathematics and Statistics}
+    \field{year}{1999}
+  \endentry
+
+  \entry{HamiltonianStructuresIbort}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=CF}{%
+         family={Cantrijn},
+         familyi={C\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={Ibort},
+         familyi={I\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=dLM}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={León},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CFIALMd1}
+    \strng{fullhash}{CFIALMd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{225–236}
+    \field{title}{Hamiltonian structures on multisymplectic manifolds}
+    \field{volume}{54}
+    \field{journaltitle}{Rend. Sem. Mat. Univ. Politec. Torino}
+    \field{month}{01}
+    \field{year}{1996}
+  \endentry
+
+  \entry{KdVequationGotay}{incollection}{}{}
+    \name{author}{1}{}{%
+      {{hash=GM}{%
+         family={Gotay},
+         familyi={G\bibinitperiod},
+         given={M.J.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Kluwer Acad. Publ., Dordrecht}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Differential geometrical methods in theoretical physics ({C}omo, 1987)}
+    \verb{doi}
+    \verb 10.1007/978-94-015-7809-7_15
+    \endverb
+    \field{isbn}{90-277-2820-8}
+    \field{pages}{295\bibrangedash 305}
+    \field{series}{NATO Adv. Sci. Inst. Ser. C: Math. Phys. Sci.}
+    \field{title}{A multisymplectic approach to the {K}d{V} equation}
+    \field{volume}{250}
+    \field{year}{1988}
+  \endentry
+
+  \entry{GotayMultisymplecticFramework}{incollection}{}{}
+    \name{author}{1}{}{%
+      {{hash=GM}{%
+         family={Gotay},
+         familyi={G\bibinitperiod},
+         given={M.J.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {North-Holland, Amsterdam}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Mechanics, analysis and geometry: 200 years after {L}agrange}
+    \verb{doi}
+    \verb 10.1016/B978-0-444-88958-4.50012-4
+    \endverb
+    \field{isbn}{0-444-88958-2}
+    \field{pages}{203\bibrangedash 235}
+    \field{series}{North-Holland Delta Ser.}
+    \field{title}{A multisymplectic framework for classical field theory and the calculus of variations. {I}. {C}ovariant {H}amiltonian formalism}
+    \field{year}{1991}
+  \endentry
+
+  \entry{MarkSpaceTimeDecomposition}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=GM}{%
+         family={Gotay},
+         familyi={G\bibinitperiod},
+         given={M.J.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/0926-2245(91)90014-Z
+    \endverb
+    \field{issn}{0926-2245,1872-6984}
+    \field{number}{4}
+    \field{pages}{375\bibrangedash 390}
+    \field{title}{A multisymplectic framework for classical field theory and the calculus of variations. {II}. {S}pace {$+$} time decomposition}
+    \verb{url}
+    \verb https://doi.org/10.1016/0926-2245(91)90014-Z
+    \endverb
+    \field{volume}{1}
+    \field{journaltitle}{Differential Geom. Appl.}
+    \field{year}{1991}
+  \endentry
+
+  \entry{Roman_Roy_2009}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=RRN}{%
+         family={Román-Roy},
+         familyi={R\bibinithyphendelim R\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{3}{%
+      {SIGMA (Symmetry, Integrability}%
+      {Geometry: Methods}%
+      {Application)}%
+    }
+    \strng{namehash}{RRN2}
+    \strng{fullhash}{RRN2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.3842/sigma.2009.100
+    \endverb
+    \field{issn}{1815-0659}
+    \field{title}{Multisymplectic Lagrangian and Hamiltonian Formalisms of Classical Field Theories}
+    \verb{url}
+    \verb http://dx.doi.org/10.3842/sigma.2009.100
+    \endverb
+    \field{journaltitle}{Symmetry, Integrability and Geometry: Methods and Applications}
+    \field{month}{11}
+    \field{year}{2009}
+  \endentry
+
+  \entry{NarcisoMultisymplecticFormalism}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=RRN}{%
+         family={Rom\'{a}n-Roy},
+         familyi={R\bibinithyphendelim R\bibinitperiod},
+         given={Narciso},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RRN1}
+    \strng{fullhash}{RRN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.3842/SIGMA.2009.100
+    \endverb
+    \field{issn}{1815-0659}
+    \field{pages}{Paper 100, 25}
+    \field{title}{Multisymplectic {L}agrangian and {H}amiltonian formalisms of classical field theories}
+    \verb{url}
+    \verb https://doi.org/10.3842/SIGMA.2009.100
+    \endverb
+    \field{volume}{5}
+    \field{journaltitle}{SIGMA Symmetry Integrability Geom. Methods Appl.}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Invitation2019}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=RL}{%
+         family={Ryvkin},
+         familyi={R\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Wurzbacher},
+         familyi={W\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Multisymplectic geometry, Lagrangian and Hamiltonian field theories, Darboux-type theorems, Groups of multisymplectic diffeomorphisms, Homotopy comoment}
+    \strng{namehash}{RLWT1}
+    \strng{fullhash}{RLWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this article we study multisymplectic geometry, i.e., the geometry of manifolds with a non-degenerate, closed differential form. First we describe the transition from Lagrangian to Hamiltonian classical field theories, and then we reformulate the latter in “multisymplectic terms”. Furthermore, we investigate basic questions on normal forms of multisymplectic manifolds, notably the questions whether and when Darboux-type theorems hold, and “how many” diffeomorphisms certain, important classes of multisymplectic manifolds possess. Finally, we survey recent advances in the area of symmetries and conserved quantities on multisymplectic manifolds.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.geomphys.2019.03.006
+    \endverb
+    \field{issn}{0393-0440}
+    \field{pages}{9\bibrangedash 36}
+    \field{title}{An invitation to multisymplectic geometry}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0393044018301189
+    \endverb
+    \field{volume}{142}
+    \field{journaltitle}{Journal of Geometry and Physics}
+    \field{year}{2019}
+  \endentry
+
+  \entry{deleon2003tulczyjews}{inbook}{}{}
+    \name{author}{3}{}{%
+      {{hash=dLM}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Leon},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=dDDM}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Diego},
+         familyi={D\bibinitperiod},
+         given={D.\bibnamedelima Mart\'in},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SMA}{%
+         family={Santamaria-Merino},
+         familyi={S\bibinithyphendelim M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LMdDDMdSMA1}
+    \strng{fullhash}{LMdDDMdSMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Applied Differential Geometry and Mechanics}
+    \field{pages}{21\bibrangedash 47}
+    \field{title}{Tulczyjew's triples and lagrangian submanifolds in classical field theories}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Sevestre_2019}{inbook}{}{}
+    \name{author}{2}{}{%
+      {{hash=SG}{%
+         family={Sevestre},
+         familyi={S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Wurzbacher},
+         familyi={W\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer International Publishing}%
+    }
+    \strng{namehash}{SGWT1}
+    \strng{fullhash}{SGWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Geometric and Harmonic Analysis on Homogeneous Spaces}
+    \verb{doi}
+    \verb 10.1007/978-3-030-26562-5_8
+    \endverb
+    \field{isbn}{9783030265625}
+    \field{issn}{2194-1017}
+    \field{pages}{191–205}
+    \field{title}{Lagrangian Submanifolds of Standard Multisymplectic Manifolds}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/978-3-030-26562-5_8
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{WeinsteinLagrangianNeighborhood}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=WA}{%
+         family={Weinstein},
+         familyi={W\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WA1}
+    \strng{fullhash}{WA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0001-8708(71)90020-X
+    \endverb
+    \field{issn}{0001-8708}
+    \field{number}{3}
+    \field{pages}{329\bibrangedash 346}
+    \field{title}{Symplectic manifolds and their {L}agrangian submanifolds}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/000187087190020X
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{Advances in Mathematics}
+    \field{year}{1971}
+  \endentry
+
+  \entry{FORGER_2003}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=FM}{%
+         family={Forger},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Paufler},
+         familyi={P\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RH}{%
+         family={Romer},
+         familyi={R\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {World Scientific Pub Co Pte Lt}%
+    }
+    \strng{namehash}{FMPCRH1}
+    \strng{fullhash}{FMPCRH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1142/s0129055x03001734
+    \endverb
+    \field{issn}{1793-6659}
+    \field{number}{07}
+    \field{pages}{705–743}
+    \field{title}{The Poisson bracket for Poisson forms in multisymplectic theory}
+    \verb{url}
+    \verb http://dx.doi.org/10.1142/s0129055x03001734
+    \endverb
+    \field{volume}{15}
+    \field{journaltitle}{Reviews in Mathematical Physics}
+    \field{month}{09}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Blacker_2021}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=BC}{%
+         family={Blacker},
+         familyi={B\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{BC1}
+    \strng{fullhash}{BC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s11005-021-01408-y
+    \endverb
+    \field{issn}{1573-0530}
+    \field{number}{3}
+    \field{title}{Reduction of multisymplectic manifolds}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/s11005-021-01408-y
+    \endverb
+    \field{volume}{111}
+    \field{journaltitle}{Letters in Mathematical Physics}
+    \field{month}{05}
+    \field{year}{2021}
+  \endentry
+
+  \entry{AitorSymmetries}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=dLM}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Le\'{o}n},
+         familyi={L\bibinitperiod},
+         given={Manuel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MdDD}{%
+         prefix={Mart\'{\i}n\bibnamedelima de},
+         prefixi={M\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Diego},
+         familyi={D\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SMA}{%
+         family={Santamar\'{\i}a-Merino},
+         familyi={S\bibinithyphendelim M\bibinitperiod},
+         given={Aitor},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LMdDDMdSMA2}
+    \strng{fullhash}{LMdDDMdSMA2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1142/S0219887804000290
+    \endverb
+    \field{issn}{0219-8878,1793-6977}
+    \field{number}{5}
+    \field{pages}{651\bibrangedash 710}
+    \field{title}{Symmetries in classical field theory}
+    \verb{url}
+    \verb https://doi.org/10.1142/S0219887804000290
+    \endverb
+    \field{volume}{1}
+    \field{journaltitle}{Int. J. Geom. Methods Mod. Phys.}
+    \field{year}{2004}
+  \endentry
+
+  \entry{ConservedQuantitiesMarco}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=RL}{%
+         family={Ryvkin},
+         familyi={R\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Wurzbacher},
+         familyi={W\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zambon},
+         familyi={Z\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RLWTZM1}
+    \strng{fullhash}{RLWTZM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1017/s1446788718000381
+    \endverb
+    \field{issn}{1446-7887,1446-8107}
+    \field{number}{1}
+    \field{pages}{120\bibrangedash 144}
+    \field{title}{Conserved quantities on multisymplectic manifolds}
+    \verb{url}
+    \verb https://doi.org/10.1017/s1446788718000381
+    \endverb
+    \field{volume}{108}
+    \field{journaltitle}{J. Aust. Math. Soc.}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Bursztyn2015}{inbook}{}{}
+    \name{author}{3}{}{%
+      {{hash=BH}{%
+         family={Bursztyn},
+         familyi={B\bibinitperiod},
+         given={Henrique},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cabrera},
+         familyi={C\bibinitperiod},
+         given={Alejandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ID}{%
+         family={Iglesias},
+         familyi={I\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \name{editor}{4}{}{%
+      {{hash=CDE}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Dong\bibnamedelima Eui},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HDD}{%
+         family={Holm},
+         familyi={H\bibinitperiod},
+         given={Darryl\bibnamedelima D.},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Patrick},
+         familyi={P\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Ratiu},
+         familyi={R\bibinitperiod},
+         given={Tudor},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer New York}%
+    }
+    \strng{namehash}{BHCAID1}
+    \strng{fullhash}{BHCAID1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We study higher-degree generalizations of symplectic groupoids, referred to as multisymplectic groupoids. Recalling that Poisson structures may be viewed as infinitesimal counterparts of symplectic groupoids, we describe ``higher'' versions of Poisson structures by identifying the infinitesimal counterparts of multisymplectic groupoids. Some basic examples and features are discussed.%
+    }
+    \field{booktitle}{Geometry, Mechanics, and Dynamics: The Legacy of Jerry Marsden}
+    \verb{doi}
+    \verb 10.1007/978-1-4939-2441-7_3
+    \endverb
+    \field{isbn}{978-1-4939-2441-7}
+    \field{pages}{57\bibrangedash 73}
+    \field{title}{Multisymplectic Geometry and Lie Groupoids}
+    \verb{url}
+    \verb https://doi.org/10.1007/978-1-4939-2441-7_3
+    \endverb
+    \list{location}{1}{%
+      {New York, NY}%
+    }
+    \field{year}{2015}
+  \endentry
+
+  \entry{orbitsforms}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=RL}{%
+         family={Ryvkin},
+         familyi={R\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RL1}
+    \strng{fullhash}{RL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1609.02184
+    \endverb
+    \field{title}{Linear orbits of alternating forms on real vector spaces}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{math.AC}
+    \field{year}{2017}
+  \endentry
+
+  \entry{silvia}{book}{}{}
+    \name{author}{3}{}{%
+      {{hash=dLM}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={León},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Salgado},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VS}{%
+         family={Vilariño},
+         familyi={V\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {World Scientific Publishing Co. Pte. Ltd.: Hackensack, NJ, USA}%
+    }
+    \strng{namehash}{LMdSMVS1}
+    \strng{fullhash}{LMdSMVS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{xiii+207}
+    \field{title}{Methods of Differential Geometry in Classical Field Theories}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Martin1988ADT}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=MG}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{MG1}
+    \strng{fullhash}{MG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/bf00402020
+    \endverb
+    \field{issn}{1573-0530}
+    \field{number}{2}
+    \field{pages}{133–138}
+    \field{title}{A Darboux theorem for multi-symplectic manifolds}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/bf00402020
+    \endverb
+    \field{volume}{16}
+    \field{journaltitle}{Letters in Mathematical Physics}
+    \field{month}{08}
+    \field{year}{1988}
+  \endentry
+
+  \entry{gràcia2023darboux}{misc}{}{}
+    \name{author}{4}{}{%
+      {{hash=GX}{%
+         family={Gràcia},
+         familyi={G\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=dLJ}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Lucas},
+         familyi={L\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RX}{%
+         family={Rivas},
+         familyi={R\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=RRN}{%
+         family={Román-Roy},
+         familyi={R\bibinithyphendelim R\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GXLJdRXRRN1}
+    \strng{fullhash}{GXLJdRXRRN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 2306.08556
+    \endverb
+    \field{title}{On Darboux theorems for geometric structures induced by closed forms}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{math.DG}
+    \field{year}{2023}
+  \endentry
+
+  \entry{vaisman2012lectures}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=VI}{%
+         family={Vaisman},
+         familyi={V\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Birkhäuser Basel}%
+    }
+    \strng{namehash}{VI1}
+    \strng{fullhash}{VI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/978-3-0348-8495-2
+    \endverb
+    \field{isbn}{9783034884952}
+    \field{title}{Lectures on the Geometry of Poisson Manifolds}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/978-3-0348-8495-2
+    \endverb
+    \field{year}{1994}
+  \endentry
+
+  \entry{KANATCHIKOV1997225}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=KIV}{%
+         family={Kanatchikov},
+         familyi={K\bibinitperiod},
+         given={Igor\bibnamedelima V.},
+         giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KIV1}
+    \strng{fullhash}{KIV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A few generalizations of a Poisson algebra to field theory canonically formulated in terms of the polymomentum variables are discussed. A graded Poisson bracket on differential forms and an (n + l)-ary bracket on functions are considered. The Poisson bracket on differential forms gives rise to various generalizations of a Gerstenhaber algebra: the noncommutative (in the sense of Loday) and the higher-order (in the sense of the higher-order graded Leibniz rule). The (n + l)-ary bracket fulfills the properties of the Nambu bracket including the “fundamental identity”, thus leading to the Nambu-Poisson algebra. We point out that in the field theory context the Nambu bracket with a properly defined covariant analogue of Hamilton's function determines a joint evolution of several dynamical variables.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/S0034-4877(97)85919-8
+    \endverb
+    \field{issn}{0034-4877}
+    \field{number}{2}
+    \field{pages}{225\bibrangedash 234}
+    \field{title}{On field theoretic generalizations of a Poisson algebra}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0034487797859198
+    \endverb
+    \field{volume}{40}
+    \field{journaltitle}{Reports on Mathematical Physics}
+    \field{year}{1997}
+  \endentry
+
+  \entry{Linfintyalgebra}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=RCL}{%
+         family={Rogers},
+         familyi={R\bibinitperiod},
+         given={C.\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{RCL1}
+    \strng{fullhash}{RCL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s11005-011-0493-x
+    \endverb
+    \field{issn}{1573-0530}
+    \field{number}{1}
+    \field{pages}{29–50}
+    \field{title}{{$L_\infty$}-Algebras from Multisymplectic Geometry}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/s11005-011-0493-x
+    \endverb
+    \field{volume}{100}
+    \field{journaltitle}{Letters in Mathematical Physics}
+    \field{month}{04}
+    \field{year}{2011}
+  \endentry
+
+  \entry{ExistenceOfComoments}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=RL}{%
+         family={Ryvkin},
+         familyi={R\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Wurzbacher},
+         familyi={W\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RLWT1}
+    \strng{fullhash}{RLWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.difgeo.2015.04.001
+    \endverb
+    \field{issn}{0926-2245,1872-6984}
+    \field{pages}{1\bibrangedash 11}
+    \field{title}{Existence and unicity of co-moments in multisymplectic geometry}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.difgeo.2015.04.001
+    \endverb
+    \field{volume}{41}
+    \field{journaltitle}{Differential Geom. Appl.}
+    \field{year}{2015}
+  \endentry
+
+  \entry{TulzcyjewLieDerivative}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=TWM}{%
+         family={Tulczyjew},
+         familyi={T\bibinitperiod},
+         given={W.\bibnamedelima M.},
+         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TWM1}
+    \strng{fullhash}{TWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{0001-4117}
+    \field{pages}{937\bibrangedash 942}
+    \field{title}{The graded {L}ie algebra of multivector fields and the generalized {L}ie derivative of forms}
+    \field{volume}{22}
+    \field{journaltitle}{Bull. Acad. Polon. Sci. S\'{e}r. Sci. Math. Astronom. Phys.}
+    \field{year}{1974}
+  \endentry
+
+  \entry{weinstein1977lectures}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=WA}{%
+         family={Weinstein},
+         familyi={W\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Mathematical Society}%
+    }
+    \strng{namehash}{WA1}
+    \strng{fullhash}{WA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1090/cbms/029
+    \endverb
+    \field{isbn}{9781470423896}
+    \field{issn}{2380-5668}
+    \field{title}{Lectures on Symplectic Manifolds}
+    \verb{url}
+    \verb http://dx.doi.org/10.1090/cbms/029
+    \endverb
+    \field{journaltitle}{CBMS Regional Conference Series in Mathematics}
+    \field{month}{12}
+    \field{year}{1977}
+  \endentry
+
+  \entry{gotay2004momentum}{misc}{}{}
+    \name{author}{4}{}{%
+      {{hash=GM}{%
+         family={Gotay},
+         familyi={G\bibinitperiod},
+         given={M.J.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=IJ}{%
+         family={Isenberg},
+         familyi={I\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Marsden},
+         familyi={M\bibinitperiod},
+         given={J.E.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Montgomery},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GMIJMJMR1}
+    \strng{fullhash}{GMIJMJMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb physics/9801019
+    \endverb
+    \field{title}{Momentum {M}aps and {C}lassical {R}elativistic {F}ields. Part {I}: {C}ovariant {F}ield {T}heory}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{math-ph}
+    \field{year}{2004}
+  \endentry
+
+  \entry{ibort-marin}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=IA}{%
+         family={Ibort},
+         familyi={I\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=MSJ}{%
+         family={Marín-Solano},
+         familyi={M\bibinithyphendelim S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IAMSJ1}
+    \strng{fullhash}{IAMSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{10}
+    \field{pages}{5522–5539}
+    \field{title}{Coisotropic regularization of singular Lagrangians}
+    \field{volume}{36}
+    \field{journaltitle}{J. Math. Phys.}
+    \field{year}{1995}
+  \endentry
+
+  \entry{gotay}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=GM}{%
+         family={Gotay},
+         familyi={G\bibinitperiod},
+         given={M.J.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1090/S0002-9939-1982-0633290-X
+    \endverb
+    \field{number}{1}
+    \field{pages}{111–114}
+    \field{title}{On coisotropic imbeddings of presymplectic manifolds}
+    \field{volume}{84}
+    \field{journaltitle}{Proc. Amer. Math. Soc.}
+    \field{year}{1982}
+  \endentry
+
+  \entry{zambon}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=SF}{%
+         family={Schätz},
+         familyi={S\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zambon},
+         familyi={Z\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SFZM1}
+    \strng{fullhash}{SFZM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{107–149}
+    \field{title}{Equivalences of coisotropic submanifolds}
+    \field{volume}{15}
+    \field{journaltitle}{J. Symplectic Geom.}
+    \field{year}{2017}
+  \endentry
+
+  \entry{joris_MultiDirac1}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=VJ}{%
+         family={Vankerschaver},
+         familyi={V\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YH}{%
+         family={Yoshimura},
+         familyi={Y\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Leok},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {AIP Publishing}%
+    }
+    \strng{namehash}{VJYHLM1}
+    \strng{fullhash}{VJYHLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.4731481
+    \endverb
+    \field{issn}{1089-7658}
+    \field{number}{7}
+    \field{title}{The Hamilton-Pontryagin principle and multi-Dirac structures for classical field theories}
+    \verb{url}
+    \verb http://dx.doi.org/10.1063/1.4731481
+    \endverb
+    \field{volume}{53}
+    \field{journaltitle}{Journal of Mathematical Physics}
+    \field{month}{07}
+    \field{year}{2012}
+  \endentry
+
+  \entry{jorisDirac2}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=VJ}{%
+         family={Vankerschaver},
+         familyi={V\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YH}{%
+         family={Yoshimura},
+         familyi={Y\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Leok},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Classical field theories, Multisymplectic forms, Multi-Dirac structures}
+    \strng{namehash}{VJYHLM1}
+    \strng{fullhash}{VJYHLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In a companion paper, we introduced a notion of multi-Dirac structures, a graded version of Dirac structures, and we discussed their relevance for classical field theories. In the current paper we focus on the geometry of multi-Dirac structures. After recalling the basic definitions, we introduce a graded multiplication and a multi-Courant bracket on the space of sections of a multi-Dirac structure, so that the space of sections has the structure of a Gerstenhaber algebra. We then show that the graph of a k-form on a manifold gives rise to a multi-Dirac structure and also that this multi-Dirac structure is integrable if and only if the corresponding form is closed. Finally, we show that the multi-Courant bracket endows a subset of the ring of differential forms with a graded Poisson bracket, and we relate this bracket to some of the multisymplectic brackets found in the literature.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.geomphys.2011.03.005
+    \endverb
+    \field{issn}{0393-0440}
+    \field{number}{8}
+    \field{pages}{1415\bibrangedash 1425}
+    \field{title}{On the geometry of multi-Dirac structures and Gerstenhaber algebras}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0393044011000702
+    \endverb
+    \field{volume}{61}
+    \field{journaltitle}{Journal of Geometry and Physics}
+    \field{year}{2011}
+  \endentry
+
+  \entry{ZambonDirac}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=ZM}{%
+         family={Zambon},
+         familyi={Z\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZM1}
+    \strng{fullhash}{ZM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1003.1004
+    \endverb
+    \field{pages}{563\bibrangedash 599}
+    \field{title}{{L-infinity algebras and higher analogues of Dirac structures and Courant algebroids}}
+    \field{volume}{10}
+    \field{journaltitle}{J. Symplectic Geom.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{math.SG}
+    \field{year}{2012}
+  \endentry
+
+  \entry{BursztynDirac}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=BH}{%
+         family={Bursztyn},
+         familyi={B\bibinitperiod},
+         given={Henrique},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MAN}{%
+         family={Martinez\bibnamedelima Alba},
+         familyi={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={Nicolas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Rubio},
+         familyi={R\bibinitperiod},
+         given={Roberto},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BHMANRR1}
+    \strng{fullhash}{BHMANRR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    {We study higher-order analogues of Dirac structures, extending the multisymplectic structures that arise in field theory. We define higher Dirac structures as involutive subbundles of \\$TM+\\wedge^k TM^*\\$ satisfying a weak version of the usual lagrangian condition (which agrees with it only when \\$k=1\\$). Higher Dirac structures transversal to \\$TM\\$ recover the higher Poisson structures introduced in Bursztyn et al. [8] as the infinitesimal counterparts of multisymplectic groupoids. We describe the leaf-wise geometry underlying an involutive isotropic subbundle in terms of a distinguished 1-cocycle in a natural differential complex, generalizing the presymplectic foliation of a Dirac structure. We also identify the global objects integrating higher Dirac structures.}%
+    }
+    \verb{doi}
+    \verb 10.1093/imrn/rnx163
+    \endverb
+    \verb{eprint}
+    \verb https://academic.oup.com/imrn/article-pdf/2019/5/1503/28008246/rnx163
+    \verb .pdf
+    \endverb
+    \field{issn}{1073-7928}
+    \field{number}{5}
+    \field{pages}{1503\bibrangedash 1542}
+    \field{title}{{On Higher Dirac Structures}}
+    \verb{url}
+    \verb https://doi.org/10.1093/imrn/rnx163
+    \endverb
+    \field{volume}{2019}
+    \field{journaltitle}{International Mathematics Research Notices}
+    \field{month}{08}
+    \field{year}{2017}
+  \endentry
+
+  \entry{multicontacto}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=dLM}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={León},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gaset},
+         familyi={G\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MLM}{%
+         family={Muñoz-Lecanda},
+         familyi={M\bibinithyphendelim L\bibinitperiod},
+         given={M.C.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RX}{%
+         family={Rivas},
+         familyi={R\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=RRN}{%
+         family={Román-Roy},
+         familyi={R\bibinithyphendelim R\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LMdGJMLMRXRRN1}
+    \strng{fullhash}{LMdGJMLMRXRRN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{No. 025201, 44 pp.}
+    \field{title}{Multicontact formulation for non-conservative field theories}
+    \field{volume}{56}
+    \field{journaltitle}{J. Phys. A}
+    \field{year}{2023}
+  \endentry
+\enddatalist
+\endinput
