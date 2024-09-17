@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{\bf The geometry of calculus of variations}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{The geometric setting}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{The Euler-Lagrange equations}{7}{0}{1}
+\beamer@sectionintoc {2}{\bf Multisymplectic geometry}{15}{0}{2}
+\beamer@subsectionintoc {2}{1}{Basic definitions}{16}{0}{2}
+\beamer@subsectionintoc {2}{2}{Noether's Theorem}{18}{0}{2}
+\beamer@subsectionintoc {2}{3}{Brackets}{22}{0}{2}
+\beamer@subsectionintoc {2}{4}{...and more!}{25}{0}{2}
+\beamer@sectionintoc {3}{\bf Examples}{27}{0}{3}
+\beamer@subsectionintoc {3}{1}{Classical Mechanics}{28}{0}{3}
+\beamer@subsectionintoc {3}{2}{Hyperelastic materials}{31}{0}{3}
